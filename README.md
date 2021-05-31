@@ -6,6 +6,20 @@ Fonts: Inter, etc.
 
 [Inspiration - castel.dev](castel.dev)
 
+hello-friend-starter : [link](https://github.com/panr/gatsby-starter-hello-friend/blob/master/src/styles/header.module.css)
+
+```
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1rem;
+  background: #fe5186;
+  margin-left: 5px;
+  border-radius: 1px;
+  animation: cursor 1s infinite;
+}
+```
+
 # Henry
 
 Henry is a [Jekyll](https://github.com/jekyll/) theme with a gorgeous reading experience, chock-full of features. To find out more about all the features check out this [blog post](https://blog.jkl.gg/henry-jekyll-theme/).
