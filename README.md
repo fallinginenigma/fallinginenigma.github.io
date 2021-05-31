@@ -1,6 +1,12 @@
-# Henry
+# Notes for Karthik
 
-<p align="center"><img src="assets/img/henry.png"></p>
+Change fonts in _sass/theme.scss
+
+Fonts: Inter, etc. 
+
+[Inspiration - castel.dev](castel.dev)
+
+# Henry
 
 Henry is a [Jekyll](https://github.com/jekyll/) theme with a gorgeous reading experience, chock-full of features. To find out more about all the features check out this [blog post](https://blog.jkl.gg/henry-jekyll-theme/).
 
@@ -34,23 +40,7 @@ You can setup new/existing blogs with Henry, with or without Docker. Feel free t
 
 If you wish to publish your blog using [Github Pages](https://pages.github.com) (a popular free hosting option) you can follow this [publishing guide](./publishing_github_pages.md).
 
-## Firebase Hosting (included with Docker container)
-
-Another good option to publish your blog is [Firebase hosting](https://firebase.google.com/docs/hosting). It includes a pretty generous free plan and allows plenty of customizability. Here's a [setup guide](./publishing_firebase_hosting.md).
-
-# Contributing
-
-Bug reports and pull requests are welcome on [GitHub](https://github.com/kaushikgopal/henry-jekyll). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-To get started check out the [DEVELOPMENT](https://github.com/kaushikgopal/henry-jekyll/blob/main/DEVELOPMENT.md) page.
-
 # Henry in the Wild
-
-Here are a couple of blogs that use Henry:
-
-1. [Karthick Gopal's blog](https://blog.karthickg.com)
-2. [Kaushik Gopal's blog](https://blog.jkl.gg)
-3. [Nic Finn's blog](https://neodymiumphi.sh) _(Github Pages)_
 
 # License
 

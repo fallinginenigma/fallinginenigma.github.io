@@ -21,10 +21,10 @@ host: 0.0.0.0
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Kaushik's new blog
+title: Karthik's Blog
 author:
-  name: "Kaushik Gopal"
-  twitter: kaushikgopal
+  name: "Karthik V N P Perla"
+  twitter: fallinginenigma
   bio-url: "https://jkl.gg"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
