@@ -21,7 +21,7 @@ host: 0.0.0.0
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Karthik's Blog
+title: Karthik Perla
 author:
   name: "Karthik V N P Perla"
   twitter: fallinginenigma
@@ -44,8 +44,8 @@ encoding: utf-8
 
 # Jekyll Plugins (only needed for GitHub Pages)
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+ - jekyll-feed
+ - jekyll-seo-tag
 
 # front matter defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:

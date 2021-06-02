@@ -1,2 +1,17 @@
 // Hook to override predefined variables.
+$background-color: #fffff8;
+$color-text: #111111;
 
+$color-text2:       #111111;
+$color-textunderline: #111111;
+$color-code:        #111111;
+
+$color-header-index:    lighten($color-text, 10%);
+$color-header:          lighten($color-text, 60%);
+
+$font-family-base: "Inter", Georgia, "Times New Roman", serif;
+$header-font-family: "Inter", "IBM Plex Sans", sans-serif;
+$header-2-font-family: "Inter", "IBM Plex Serif", "ff-tisa-web-pro", Georgia, "Times New Roman", serif;
+$fixed-width-font-family: 'Source Code Pro', "IBM Plex Mono", 'SF Mono', 'Consolas', monospace;
+
+$color-link:        #7e7e7e; 

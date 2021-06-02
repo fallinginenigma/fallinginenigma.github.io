@@ -1,4 +1,5 @@
 /**
+ *
  * A jQuery function that displays the footnotes
  * on the side (sidenotes) for easier reading.
  *
