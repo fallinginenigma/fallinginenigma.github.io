@@ -26,13 +26,9 @@ hello-friend-starter : [link](https://github.com/panr/gatsby-starter-hello-frien
     100% { opacity: 0; }
 }
 ```
+Changes need:
 
-
-
-
-
-
-
+root/about.md - Needs to change
 
 # Henry
 
