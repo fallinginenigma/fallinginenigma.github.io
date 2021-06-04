@@ -1,8 +1,27 @@
+# Commands to set up Jekyll
+
+```
+export PATH="/home/karthik/.local/share/gem/ruby/3.0.0/bin:$PATH" 
+
+bundle exec jekyll server --drafts --watch --force_polling --incremental --livereload
+
+```
+# Merge Git to GitHub
+
+```
+git add .
+
+git commit -m 'add some message'
+
+git push origin main
+
+```
+
 # Notes for Karthik
 
-Change fonts in _sass/theme.scss
+//Change fonts in _sass/theme.scss
 
-Fonts: Inter, etc. 
+//Fonts: Inter, etc. 
 
 [Inspiration - castel.dev](castel.dev)
 
@@ -57,8 +76,6 @@ http://localhost:4000/
 ```
 
 You can setup new/existing blogs with Henry, with or without Docker. Feel free to refer to this [setup guide](./setup.md) for details.
-
-
 
 # Setup guide
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes for Karthik"
+title: "Introduction"
 categories: [blogging]
 tags: [jekyll, henry]
 canonical_url: https://fallinginenigma.github.io/henry-jekyll-theme/
