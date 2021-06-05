@@ -6,13 +6,9 @@ tags: [jekyll, henry]
 canonical_url: https://fallinginenigma.github.io/henry-jekyll-theme/
 ---
 
-Introducing [Henry](https://github.com/kaushikgopal/henry-jekyll) - a [Jekyll](https://github.com/jekyll/) theme with a gorgeous reading experience, chock-full of features.
-
 # Features
 
 To see the full list of features [check out this blog post](https://blog.jkl.gg/henry-jekyll-theme/).
-
-## Resources
 
 ### Reporting bugs
 
