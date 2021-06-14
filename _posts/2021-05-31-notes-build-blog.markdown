@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes for Karthik"
+title: "Notes"
 categories: [blogging]
 tags: [jekyll, henry]
 canonical_url: https://fallinginenigma.github.io/notes-build-blog/
@@ -30,7 +30,7 @@ git commit -m 'add some message'
 git push origin main 
 ```
 
-# Notes for Karthik
+# Notes
 
 ## Changes needed:
 

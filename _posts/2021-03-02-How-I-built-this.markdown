@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I built this blog"
+title: "Building this blog"
 categories: [meta]
 tags: [jekyll, henry]
 canonical_url: https://fallinginenigma.github.io/building-the-blog/
