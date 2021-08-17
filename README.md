@@ -1,3 +1,13 @@
+# To Do
+
+[ ] 404 Page in _layouts
+[ ] Fix the Inter Font - Weights added, change in _sass
+[ ] Add posts on Pokemon Emerald, how to build a Lily 58, etc
+[ ] Change About Page in _root
+[ ] Edit multiple settings in _root/_config.yml
+[ ] Buy a Domain from Google Names
+[ ] Fix _includes/_footer
+
 # Henry
 
 Henry is a [Jekyll](https://github.com/jekyll/) theme with a gorgeous reading experience, chock-full of features. To find out more about all the features check out this [blog post](https://blog.jkl.gg/henry-jekyll-theme/).

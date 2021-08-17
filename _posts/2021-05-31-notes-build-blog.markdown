@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes"
+title: "Notes - Starting the blog development"
 categories: [blogging]
 tags: [jekyll, henry]
 canonical_url: https://fallinginenigma.github.io/notes-build-blog/
