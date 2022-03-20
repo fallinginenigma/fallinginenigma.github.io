@@ -6,6 +6,11 @@ tags: [jekyll, henry]
 canonical_url: https://fallinginenigma.github.io/henry-jekyll-theme/
 ---
 
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
 # Features
 
 To see the full list of features [check out this blog post](https://blog.jkl.gg/henry-jekyll-theme/).

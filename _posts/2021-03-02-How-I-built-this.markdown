@@ -6,6 +6,11 @@ tags: [jekyll, henry]
 canonical_url: https://fallinginenigma.github.io/building-the-blog/
 ---
 
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
+
 I used GitHub Pages [^1]
 
 [Tufte CSS](https://edwardtufte.github.io/tufte-css/) [^2]

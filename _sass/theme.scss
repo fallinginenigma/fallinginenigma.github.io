@@ -6,7 +6,9 @@ $font-size-regular:   20px;
 
 $font-size-xlarge:   $font-size-regular * 2;
 $font-size-large:   $font-size-regular * 1.5;
+
 //regular
+
 $font-size-medium:  $font-size-regular * 0.875;
 $font-size-small:  $font-size-regular * 0.75;
 
@@ -23,9 +25,9 @@ $screen-width:  780px;
 
 //region Theme
 
-$font-family-base: "Inter", Georgia, "Times New Roman", serif;
+$font-family-base: "Inter", "Georgia", "Times New Roman", serif;
 $header-font-family: "Inter", "IBM Plex Sans", sans-serif;
-$header-2-font-family: "Inter", "IBM Plex Serif", "ff-tisa-web-pro", Georgia, "Times New Roman", serif;
+$header-2-font-family: "Inter", "IBM Plex Serif", "ff-tisa-web-pro", "Georgia", "Times New Roman", serif;
 $fixed-width-font-family: 'Source Code Pro', "IBM Plex Mono", 'SF Mono', 'Consolas', monospace;
 
 $background-color: #fffff8;

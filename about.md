@@ -1,10 +1,16 @@
 ---
 layout: page
-title: About this blog
+title: Why this blog?
 permalink: /about/
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/4/48/Jekyll-mansfield.jpg)
+For the last few years, I devoted most of my mental processing power and energy towards a goal. The goal fell through and lately has become a hindrance. Therefore, I have decided to work redirecting all that energy into something creative.
 
-Dr. Henry Jekyll, nicknamed in some copies of the story as Harry Jekyll, and his alternative personality, Mr. Edward Hyde, is the central character of Robert Louis Stevenson's 1886 novella Strange Case of Dr Jekyll and Mr Hyde. In the story, he is a good friend of main protagonist Gabriel John Utterson. Jekyll is a kind and respected English doctor who has repressed evil urges inside of him. In an attempt to hide this, he develops a type of serum that he believes will effectively mask his dark side. Instead, Jekyll transforms into Edward Hyde, the physical and mental manifestation of his evil personality.This process happens more regularly until Jekyll becomes unable to control when the transformations occur. 
+I decided to host a site in order to show case my experiments in my interests: they keep changing and range from Astronomy, Computer Science, Technology, Quantum Physics to Anime, Pokémon, Manga and so on.
+
+You might find that posts on this site have changed since you’ve last read a post. As a perfectionist I wanted to follow the paradigm – Write, Revise, Edit. In short, every post will go through an iterative process until I deem it perfect.
+
+Since it is iterative, the previous versions would be archived for readers to refer back to it.
+
+**__This is for Blueberry Muffin. You inspire me to be myself.__**
 
