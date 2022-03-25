@@ -24,7 +24,7 @@ host: 0.0.0.0
 title: Karthik
 author:
   name: "Karthik Perla"
-  twitter: @fallinginenigma
+  twitter: '@fallinginenigma'
   bio-url: "www.linkedin.com/in/karthikperla"
 description: >- # this means to ignore newlines until "baseurl:"
   a project
