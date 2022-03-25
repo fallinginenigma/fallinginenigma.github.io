@@ -1,90 +1,12 @@
 # To Do
 
-[ ] 404 Page in _layouts
-[ ] Fix the Inter Font - Weights added, change in _sass
-[ ] Add posts on Pokemon Emerald, how to build a Lily 58, etc
-[ ] Change About Page in _root
-[ ] Edit multiple settings in _root/_config.yml
-[ ] Buy a Domain from Google Names
-[ ] Fix _includes/_footer
-
-# Henry
-
-Henry is a [Jekyll](https://github.com/jekyll/) theme with a gorgeous reading experience, chock-full of features. To find out more about all the features check out this [blog post](https://blog.jkl.gg/henry-jekyll-theme/).
-
-# Getting Started
-
-The easiest way to get up and running with a Jekyll blog using Henry is using the included [Docker](https://www.docker.com/) configuration file.
-
-```shell
-# 1. clone Henry
-git clone git@github.com:kaushikgopal/henry-jekyll.git my_blog
-# 2. cleanup script so unnecessary files are remoed
-./start_new_blog.sh
-# 3. spin up blog with docker
-docker-compose up
-```
-
-You're good to go!
-
-```shell
-## on a Mac
-http://0.0.0.0:4000/
-## on Windows
-http://localhost:4000/
-```
-
-You can setup new/existing blogs with Henry, with or without Docker. Feel free to refer to this [setup guide](./setup.md) for details.
-
-# Setup guide
-
-The quickest way to get up and running with a Jekyll blog using Henry is using the included [Docker](https://www.docker.com/) configuration file. 
-
-However, this guide shows the different ways you can get up and running with a Jekyll blog & Henry.
-
-##### Table of content
-
-* [Setup *new* blog with **Docker**](#setup-new-blog-with-docker)
-* [Setup *new* blog directly](#setup-new-blog-directly)
-* [Setup *existing* blog with **Docker**](#setup-existing-blog-with-docker)
-* [Setup *existing* blog directly](#setup-existing-blog-directly)
-
-## Setup new blog (with Docker)
-
-### Step 1: clone the henry repo
-
-```shell
-git clone git@github.com:kaushikgopal/henry-jekyll.git my_new_blog
-```
-
-### Step 2: run the cleanup script
-
-Unless you plan on contributing or working on Henry directly you don't need this entire repo. To get started with a new blog, I've added this handy script called `start_new_blog.sh` that morphs the Henry repo to fresh new blog.
-
-```shell
-./start_new_blog.sh
-```
-
-### Step 3: spin blog up using docker
-
-Once you install [Docker](https://docs.docker.com/get-docker/) the setup becomes *incredibly* simple. The included Docker config file `docker-compose.yml` takes care of installing the right versions of Jekyll, Ruby and the necessary gems.
-
-```shell
-docker-compose up
-```
-
-When using Docker, spinning it up the first time takes a while (since you have to download the docker container). Subsequent runs are super snappy.
-
-Now run your live local blog!
-
-```shell
-## on a Mac
-http://0.0.0.0:4000/
-## on Windows
-http://localhost:4000/
-```
-
-After you have docker up and running with the right URL, start editing your posts and notice the browser reload your changes in realtime.
+- 404 Page in _layouts
+- Fix the Inter Font - Weights added, change in _sass
+- Add posts on Pokemon Emerald, how to build a Lily 58, etc
+- Change About Page in _root
+- Edit multiple settings in _root/_config.yml
+- Buy a Domain from Google Names
+- Fix _includes/_footer
 
 ## Setup existing blog (with Docker)
 
@@ -198,8 +120,10 @@ Take a look at [the `index.html` page in Henry's `_layout` folder](https://githu
 
 Once you install [Docker](https://docs.docker.com/get-docker/) the setup becomes *incredibly* simple. The included Docker config file `docker-compose.yml` takes care of installing the right versions of Jekyll, Ruby and the necessary gems.
 
+To start docker: `sudo systemctl start docker`
+
 ```shell
-docker-compose up
+docker compose up
 ```
 
 When using Docker, spinning it up the first time takes a while (since you have to download the docker container). Subsequent runs are super snappy.
