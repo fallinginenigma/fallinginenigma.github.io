@@ -15,16 +15,22 @@ layout: default
 
         <h4 class="post-author">
             {% if page.author %} {{page.author}} {% else %}
-            {% if site.author.name %} {{site.author.name}} {% else %} Karthik Perla{% endif %}
+            {% if site.author.name %} {{site.author.name}} {% else %} Karthik V N P Perla{% endif %}
             {% endif %}
         </h4>
 
     </header>
-
+    
+    
     <article class="post-content">
+        
         {{ content }}
+
     </article>
 
     {% include meta.html %}
 
 </section>
+
+<!-- BackToTop Button -->
+<i id="back2top" class="material-icons icon-3d" rel="tooltip" title="Back to Top">arrow_drop_down_circle</i>

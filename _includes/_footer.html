@@ -1,9 +1,50 @@
 <nav class="site-nav">
     <ul>
-        <li><a class="nav-link" href="/">posts</a></li>
-        <li><a class="nav-link" href="{{ site.author.bio-url }}">homepage</a></li>
-        <li><a class="nav-link" href="/about/">about</a></li>
-        <li><a class="nav-link site-title" href="{{ site.url }}/categories">categories</a></li>
+        <li><a class="nav-link" href="/">Home</a></li>
+        <li><a class="nav-link" href="/about/">About</a></li>
+        <li><a class="nav-link site-title" href="{{ site.url }}/categories">Categories</a></li>
+        <li><a class="nav-link site-title" href="{{ site.url }}/why">Why write?</a></li>
         <!-- <li><a class="nav-link" href="{{ site.url }}/feed.xml">rss</a></li> -->
     </ul>
 </nav>
+
+<!--Having year and name at the footer of the website-->
+
+<div class='footer'>
+    <span>
+        <small>
+            <center>
+                &copy; {{ site.time | date: '%Y' }} Karthik Perla
+            </center>
+        </small>
+    </span>
+
+</div>
+
+<!-- Import jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+<!-- Import Bootstrap Javascript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+
+
+<script>
+    // dynamically add navigation button (go to top) if scrolled to bottom
+    $(window).scroll(function () {
+        // if distance from top, plus window height greater than document height minus buffer
+        // i.e. if bottom of screen is within 200 pixels from bottom of document
+        if ($(window).scrollTop() + $(window).height() > $(document).height() - 400) {
+            $('#back2top').fadeIn();
+        } else {
+            $('#back2top').fadeOut();
+        }
+    });
+    $('#back2top').click(function () {
+        // scroll back to top
+        $("html, body").animate({ scrollTop: 0 }, 400);
+    });
+</script>

@@ -13,6 +13,24 @@
         margin-right: $spacing-unit;
         margin-left: $spacing-unit;
     }
+
+    .back2top {
+        display: none;
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        cursor: pointer;
+        font-size: 48px;
+        color: #ccc;
+        opacity: .5;
+        transform: rotate(180deg);
+        z-index: 10px;
+      
+        &:hover {
+          color: #2a7ae2;
+          opacity: 1;
+        }
+      }
 }
 
 
@@ -550,3 +568,4 @@ article.post-content {
         }
     }
 }
+
