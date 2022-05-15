@@ -10,3 +10,11 @@
 
 <!-- Google Icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- DYNAMIC PAGE ATTRIBUTES -->
+<!--Look into this Karthik, this is important-->
+<title>{{ site.title | escape }} - {% if page.title %}{{ page.title | escape }}{% endif %}</title>
+
+<!-- Bootstrap CSS 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+-->

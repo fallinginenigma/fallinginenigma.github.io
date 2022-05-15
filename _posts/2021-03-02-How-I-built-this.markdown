@@ -2,7 +2,7 @@
 layout: post
 title: "Building this blog"
 categories: [meta]
-tags: [jekyll, henry]
+tags: [meta]
 canonical_url: https://fallinginenigma.github.io/building-the-blog/
 ---
 
@@ -23,4 +23,5 @@ A blog on why you should [Join The (solarized) Light Side!](http://www.stevenzc.
 
 I want to thank my friends: Satvik and Vivek for helping me figure so many things and for being patient when I was trying to learn and fix things. 
 
+[^1]: From Github Education
 [^2]: Need to learn about about his Design Philosophy.

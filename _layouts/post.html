@@ -13,11 +13,12 @@ layout: default
             {% if page.draft %} <span class="draft">Draft</span> {% endif %}
         </h1>
 
-        <h4 class="post-author">
+        <h5 class="post-author">
             {% if page.author %} {{page.author}} {% else %}
             {% if site.author.name %} {{site.author.name}} {% else %} Karthik V N P Perla{% endif %}
             {% endif %}
-        </h4>
+            | {% include read_time.html %}
+        </h5>
 
     </header>
     
@@ -33,4 +34,28 @@ layout: default
 </section>
 
 <!-- BackToTop Button -->
+
 <i id="back2top" class="material-icons icon-3d" rel="tooltip" title="Back to Top">arrow_drop_down_circle</i>
+
+
+<!--The Spyscroll implementing Scrollnav.js-->
+<script src="/assets/js/scrollnav.min.umd.js"></script>
+
+<script>
+    const content = document.querySelector('.post-article');
+    scrollnav.init(content, {
+        debug: false,
+        //easingStyle: 'linear',
+        sections: ($('.post-content > h1').length > 0) ? 'h1' : 'h2',
+        subSections: ($('.post-content > h1').length > 0) ? 'h2' : 'h3'
+    });
+    //Dynamically positon
+    var sideNav = function () {
+        var mainRect = document.getElementById('post-content').getBoundingClientRect();
+        //var oldReac = document.getElementsByClassName('scroll-nav')[0].getBoundingClientRect();
+        $('#post-content > div.content.loading > nav').css('left', mainRect.right + 10 + 'px');
+    }
+
+    sideNav();
+    window.addEventListener("resize", sideNav);            
+</script>

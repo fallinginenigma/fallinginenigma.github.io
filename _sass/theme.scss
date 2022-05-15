@@ -30,18 +30,18 @@ $header-font-family: "Inter", "IBM Plex Sans", sans-serif;
 $header-2-font-family: "Inter", "IBM Plex Serif", "ff-tisa-web-pro", "Georgia", "Times New Roman", serif;
 $fixed-width-font-family: 'Source Code Pro', "IBM Plex Mono", 'SF Mono', 'Consolas', monospace;
 
-$background-color: #fffff8;
+$background-color: #ffffff;
 
-$color-text: #111111;
-$color-text2:       #111111;
+$color-text: #3a343a;
+$color-text2:       #3a343a;
 $color-textunderline: #111111;
-$color-code:        #111111;
+$color-code:        #3a343a;
 
 $color-link2:       $color-text2;
 $color-link:        #7e7e7e;        //used in most hovers
 
-$color-header-index:    lighten($color-text, 10%);
-$color-header:          lighten($color-text, 60%);
+$color-header-index:    #3a343a;
+$color-header:          #3a343a;
 
 $color-divider:     $color-textunderline;
 
