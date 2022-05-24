@@ -2,7 +2,7 @@
 layout: default
 ---
 <section class="post">
-
+    
     <header class="post-header">
         <h1 class="post-title">
             {% if page.external_url %}
@@ -13,18 +13,16 @@ layout: default
             {% if page.draft %} <span class="draft">Draft</span> {% endif %}
         </h1>
 
-        <h5 class="post-author">
-            {% if page.author %} {{page.author}} {% else %}
-            {% if site.author.name %} {{site.author.name}} {% else %} Karthik V N P Perla{% endif %}
-            {% endif %}
-            | {% include read_time.html %}
-        </h5>
+        <h5>{{ page.date | date: "%b %Y" }} | {% include read_time.html %}</h5>
 
     </header>
-    
-    
+
+
     <article class="post-content">
-        
+
+        <body data-spy="scroll" data-target="#toc" data-offset="70"></body>
+        <nav id="toc" data-toggle="toc" class="sticky-top" data-spy="affix"></nav>
+
         {{ content }}
 
     </article>
@@ -33,29 +31,15 @@ layout: default
 
 </section>
 
-<!-- BackToTop Button -->
-
-<i id="back2top" class="material-icons icon-3d" rel="tooltip" title="Back to Top">arrow_drop_down_circle</i>
-
-
-<!--The Spyscroll implementing Scrollnav.js-->
-<script src="/assets/js/scrollnav.min.umd.js"></script>
-
 <script>
-    const content = document.querySelector('.post-article');
-    scrollnav.init(content, {
-        debug: false,
-        //easingStyle: 'linear',
-        sections: ($('.post-content > h1').length > 0) ? 'h1' : 'h2',
-        subSections: ($('.post-content > h1').length > 0) ? 'h2' : 'h3'
-    });
-    //Dynamically positon
-    var sideNav = function () {
-        var mainRect = document.getElementById('post-content').getBoundingClientRect();
-        //var oldReac = document.getElementsByClassName('scroll-nav')[0].getBoundingClientRect();
-        $('#post-content > div.content.loading > nav').css('left', mainRect.right + 10 + 'px');
-    }
+$(function () {
+    $("#toc").append();
+  });
+</script>
 
-    sideNav();
-    window.addEventListener("resize", sideNav);            
+<!-- Move headings down when using anchor links -->
+<script>
+    var shiftWindow = function() { scrollBy(0, -70) };
+    if (location.hash) shiftWindow();
+    window.addEventListener("hashchange", shiftWindow);
 </script>

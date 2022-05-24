@@ -21,6 +21,11 @@ All links my social media: My phone no. / e-mail/ linkedin / instagram / twitter
 
 A couple of jokes - quirky presentation about me and my interests and why this page. Add relatable facts too.
 
+What gives me immense pleasure? To crush my enemies, to see them driven before me, and to hear the lamentations of their women. [Part 2, Chapter XI of "Genghis Khan The Emperor Of All Men" by H. Lamb (1936)](https://archive.org/details/genghiskhantheem035122mbp/page/n115/mode/2up)
+
+Just kidding. I like to relax while watching anime, sit-coms (i like laughing) and build things - all kinds of stuff.
+
+
 On a regular day: I work on Logistics dealing with Transporters, Senior Management and my project of Digital Transformation where I manage fleet tracking for all the 4 Grasim’s Indian Plants. Then, at home I spend my time learning how to play the guitar, building / Writing code / learning code to bring my projects to life. 
 
 I like solving puzzles and problems, talking about ideas, the stars and  art. 

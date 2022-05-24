@@ -1,43 +1,6 @@
 * A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
 {:toc}
 
-# To Do
-
-- 404 Page in _layouts
-- Name the website/ blog
-- Fix the Inter Font - Weights added, change in _sass
-- Add posts on Pokemon Emerald, how to build a Lily 58, etc
-- Change About Page in _root
-- Edit multiple settings in _root/_config.yml
-- Buy a Domain from Google Names
-- Fix _includes/_footer
-- Have an automatic Table of Contents 
-  - https://www.codeply.com/go/bp/yBqcf4kncL
-  - https://idratherbewriting.com/2015/01/20/implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents/
-  - https://github.com/ghiculescu/jekyll-table-of-contents
-- Fix the Favicon - not on all pages of the site
-- hello-friend-starter : [link](https://github.com/panr/gatsby-starter-hello-friend/blob/master/src/styles/header.module.css)
-
-Probably needs to be in _sass/base.scss
-```
-
-.cursor {
-    display: inline-block;
-    width: 10px;
-    height: 1rem;
-    background: #fe5186;
-    margin-left: 5px;
-    border-radius: 1px;
-    animation: cursor 1s infinite;
-}
-
-@keyframes cursor {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
-```
-
 ### About Henry
 
 To see the full list of features [check out this blog post](https://blog.jkl.gg/henry-jekyll-theme/).
