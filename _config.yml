@@ -21,9 +21,9 @@ host: 0.0.0.0
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Karthik
+title: Karthik Perla
 author:
-  name: "Karthik V N P Perla"
+  name: "Karthik Perla"
   twitter: '@fallinginenigma'
   bio-url: "www.linkedin.com/in/karthikperla"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -35,7 +35,7 @@ permalink: /:title/
 external-url-indicator: " »"
 
 # Build settings
-theme: henry-jekyll
+remote_theme: henry-jekyll
 markdown: kramdown
 kramdown:
   toc_levels: 1..4 # only using h1 thru h4 to generate table of contents in posts
