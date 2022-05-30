@@ -26,9 +26,9 @@ SOFTWARE
 All software I run on Windows 11:
 
 - VS Code
-- Chrome (speed vs resource utilisation - I chose speed)
+- Chrome (speed vs resource utilization - I chose speed)
 - Discord
-- Photoshop
+- Adobe Photoshop
 - VLC
 
 All software I run on Fedora:

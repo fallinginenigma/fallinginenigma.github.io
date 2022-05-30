@@ -2,7 +2,7 @@
 .post,
 .site-footer {
     display: grid;
-    grid-template-columns: 0.2fr #{"min(65ch, 100%)"} 1fr;
+    grid-template-columns: 0.2fr #{"min(80ch, 100%)"} 1fr;
 
     @include media-query-small-screen() {
         min-width: $mobile-width;
@@ -692,3 +692,71 @@ kbd {
     border: 1px solid gray;
     background: rgb(236, 239, 244);
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex: auto;
+    text-decoration: none;
+
+    img {
+        height: 44px;
+    }
+
+    &__mark {
+        margin-right: 5px;
+    }
+
+    &__text {
+        font-size: 1.125rem;
+    }
+
+    &__cursor {
+        display: inline-block;
+        width: 10px;
+        height: 1rem;
+        background: #C3B1E1;
+        margin-left: 5px;
+        border-radius: 1px;
+        animation: cursor 1s infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        &__cursor {
+            animation: none;
+        }
+    }
+
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.top_bar{
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+}
+.top_inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 1300px;
+        max-width: 100%;
+    }

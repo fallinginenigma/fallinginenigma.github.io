@@ -50,9 +50,6 @@ Then, trying to implement spyscroll without bootstrap. Looking for ideas, code, 
 - https://scrollnav.com/guide/index.html
 - http://davist11.github.io/jQuery-One-Page-Nav/
 
-
-
-
 ## Back to top
 
 In the beginning I wanted a Material icon for the Back to Top feature as seen in https://knanne.github.io/ but later found a better option on t

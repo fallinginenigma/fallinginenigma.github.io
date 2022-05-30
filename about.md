@@ -4,6 +4,7 @@ title: Hi! I'm Karthik Perla
 permalink: /about/
 ---
 
+
 <h1 class="post-title">
 <span class="bg-clip-text text-transparent bg-gradient-to-r from-my-orange to-my-pink text-5xl font-extrabold">ducunt volentem fata, nolentem trahunt</span>
 </h1> [^1]
