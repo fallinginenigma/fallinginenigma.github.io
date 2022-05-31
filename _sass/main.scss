@@ -2,7 +2,7 @@
 .post,
 .site-footer {
     display: grid;
-    grid-template-columns: 0.2fr #{"min(80ch, 100%)"} 1fr;
+    grid-template-columns: 0.2fr #{"min(65ch, 100%)"} 1fr;
 
     @include media-query-small-screen() {
         min-width: $mobile-width;
@@ -744,19 +744,21 @@ kbd {
 }
 
 
-.top_bar{
-    background: #fafafa;
+.top_bar {
+    background: #fffff0;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     padding: 20px;
 }
+
 .top_inner {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0 auto;
-        width: 1300px;
-        max-width: 100%;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px 16px;
+    width: 1300px;
+    max-width: 100%;
+}
+

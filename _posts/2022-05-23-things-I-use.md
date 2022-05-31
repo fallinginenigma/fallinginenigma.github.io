@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "Things I use"
-categories: [meta]
-tags: [meta]
+categories: [tech]
+tags: [tech]
 canonical_url: https://fallinginenigma.github.io/use/
 ---
 
 This page contains a list of the technologies I use, both software and hardware. I’ve seen a number of other people doing a "uses" page and I’ve always found them interesting, so here’s mine:
 
-# HARDWARE
+## Hardware
 - Acer Nitro 5 (i5 8th gen, 2018)
     - RAM: 12GB
     - Storage: 256GB SSD, 1 TB HDD
-    - OS: Windows 11 and Fedora (dual boot)
+    - OS: Windows 11 and Fedora 36 (dual boot)
 
 - Gigabyte 34" 2K Monitor
 
@@ -20,8 +20,7 @@ This page contains a list of the technologies I use, both software and hardware.
     - Storage: 128GB
     - OS: iOS 15
 
-SOFTWARE
---------
+## Software
 
 All software I run on Windows 11:
 
@@ -34,4 +33,3 @@ All software I run on Windows 11:
 All software I run on Fedora:
 - VS Code
 - Chrome
-- 
