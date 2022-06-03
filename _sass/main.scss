@@ -576,83 +576,6 @@ article.post-content {
     }
 }
 
-// MATERIAL
-.card {
-    margin: 2% !important;
-}
-
-.card-hover:hover {
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-}
-
-.card-deck .card {
-    max-width: 300px - $spacing-unit;
-}
-
-.icon-3d {
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-button:hover {
-    cursor: pointer;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-}
-
-.d-flex {
-    display: -webkit-box !important;
-    display: -webkit-flex !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-}
-
-.card {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: 0.25rem;
-}
-
-.card-header {
-    padding: 0.75rem 1.25rem;
-    margin-bottom: 0;
-    background-color: #f7f7f9;
-    border-bottom: 1px solid rgba(0, 0, 0, .125);
-
-    .text-right {
-        text-align: right !important;
-    }
-}
-
-.card-header:first-child {
-    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
-}
-
-.card-block {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 1.25rem;
-}
-
-.card-text:last-child {
-    margin-bottom: 0;
-}
-
-.card-img {
-    border-radius: calc(0.25rem - 1px);
-}
-
-
 .bg-gradient-to-r {
     background-image: linear-gradient(to right, var(--gradient-color-stops));
 }
@@ -684,14 +607,7 @@ button:hover {
     background-clip: text;
 }
 
-kbd {
-    font-size: 90%;
-    font-family: "Source Code Pro", "monospace";
-    padding: 0.05em 0.4em;
-    border-radius: 3px;
-    border: 1px solid gray;
-    background: rgb(236, 239, 244);
-}
+
 
 .logo {
     display: flex;
@@ -709,13 +625,14 @@ kbd {
 
     &__text {
         font-size: 1.125rem;
+        font-family: "Source Code Pro";
     }
 
     &__cursor {
         display: inline-block;
         width: 10px;
-        height: 1rem;
-        background: #C3B1E1;
+        height: 1.125rem;
+        background: #6c71c3;
         margin-left: 5px;
         border-radius: 1px;
         animation: cursor 1s infinite;
@@ -745,7 +662,7 @@ kbd {
 
 
 .top_bar {
-    background: #fffff0;
+    background: #DADADA;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -757,7 +674,7 @@ kbd {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px 16px;
+    margin: 0 30px auto;
     width: 1300px;
     max-width: 100%;
 }
