@@ -701,14 +701,14 @@ button:hover {
     }
 
     &__text {
-        font-size: 2rem;
-        font-family: "Source Code Pro", "monospace";
+        font-size: 1.125rem;
+        font-family: "Source Code Pro";
     }
 
     &__cursor {
         display: inline-block;
         width: 10px;
-        height: 2rem;
+        height: 1.125rem;
         background: #6c71c3;
         margin-left: 5px;
         border-radius: 1px;
