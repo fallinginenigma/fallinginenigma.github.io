@@ -684,14 +684,7 @@ button:hover {
     background-clip: text;
 }
 
-kbd {
-    font-size: 90%;
-    font-family: "Source Code Pro", "monospace";
-    padding: 0.05em 0.4em;
-    border-radius: 3px;
-    border: 1px solid gray;
-    background: rgb(236, 239, 244);
-}
+
 
 .logo {
     display: flex;
@@ -708,14 +701,15 @@ kbd {
     }
 
     &__text {
-        font-size: 1.125rem;
+        font-size: 2rem;
+        font-family: "Source Code Pro", "monospace";
     }
 
     &__cursor {
         display: inline-block;
         width: 10px;
-        height: 1rem;
-        background: #C3B1E1;
+        height: 2rem;
+        background: #6c71c3;
         margin-left: 5px;
         border-radius: 1px;
         animation: cursor 1s infinite;
@@ -745,7 +739,7 @@ kbd {
 
 
 .top_bar {
-    background: #fffff0;
+    background: #fdf6e3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -757,7 +751,7 @@ kbd {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px 16px;
+    margin: 0 30px auto;
     width: 1300px;
     max-width: 100%;
 }
