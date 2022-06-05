@@ -99,10 +99,14 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: #2bbc8a;
+    color: $color-text;
+    text-underline-offset: $spacing-micro-unit;
 
     &:hover {
-        text-decoration: #d44375;
+        text-decoration: $color-textunderline underline;
+        text-decoration-color: #d44375;
+            color: #3a343a;
+
     }
 }
 

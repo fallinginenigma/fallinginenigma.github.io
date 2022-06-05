@@ -196,7 +196,7 @@
 =============================== */
 
 h2.post-list-header {
-    color: $color-header-index;
+    color: #2BBC8A;
     font-family: $fixed-width-font-family;
     font-size: $font-size-regular * 1.25;
     font-weight: normal;
@@ -250,6 +250,7 @@ ul.post-list-content {
 
             &:hover {
                 text-decoration: $color-textunderline underline;
+                text-decoration-color:#d44375
             }
         }
     }
@@ -291,11 +292,11 @@ ul.post-list-content {
 
             .article-link {
 
-                color: #2bbc8a;
+                color: $color-text2;
                 text-decoration: none;
 
                 &:hover {
-                    color:#d44375;
+                    text-decoration: underline;
                 }
             }
 
@@ -328,12 +329,14 @@ ul.post-list-content {
     }
 
     a {
-        color: #2bbc8a;
-    
+        text-decoration-color: $color-textunderline;
+        text-underline-offset: $spacing-micro-unit;
+
         &:hover {
-            text-decoration: #d44375;
+            text-decoration-color: #d44375;
+            color: #3a343a;
         }
-    }   
+    }
 
     hr {
         border: 1px solid #d8d8d8;
@@ -437,8 +440,7 @@ ul.callout {
 }
 
 .sidenote-hover {
-    color: #2bbc8a;
-    ;
+    color: #2BBC8A;
     border-color: #2bbc8a;
 }
 
@@ -625,6 +627,7 @@ article.post-content {
     &__text {
         font-size: 1.125rem;
         font-family: "Source Code Pro";
+        font-weight: bold;
     }
 
     &__cursor {

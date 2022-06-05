@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Things I use"
-categories: [tech]
-tags: [tech]
+categories: [about]
+tags: [about]
 canonical_url: https://fallinginenigma.github.io/use/
 ---
 
