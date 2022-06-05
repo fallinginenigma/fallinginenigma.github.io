@@ -291,11 +291,11 @@ ul.post-list-content {
 
             .article-link {
 
-                color: $color-text2;
+                color: #2bbc8a;
                 text-decoration: none;
 
                 &:hover {
-                    text-decoration: underline;
+                    color:#d44375;
                 }
             }
 
@@ -328,13 +328,12 @@ ul.post-list-content {
     }
 
     a {
-        text-decoration-color: $color-textunderline;
-        text-underline-offset: $spacing-micro-unit;
-
+        color: #2bbc8a;
+    
         &:hover {
-            text-decoration: none;
+            text-decoration: #d44375;
         }
-    }
+    }   
 
     hr {
         border: 1px solid #d8d8d8;
@@ -438,9 +437,9 @@ ul.callout {
 }
 
 .sidenote-hover {
-    color: #006D77;
+    color: #2bbc8a;
     ;
-    border-color: #006D77;
+    border-color: #2bbc8a;
 }
 
 /* footnotes

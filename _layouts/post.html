@@ -10,7 +10,7 @@ layout: default
 <body data-bs-spy="scroll" data-target="#toc">
     <div class="col-sm-3">
         <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
-      </div>
+    </div>
 </body>
 
 <section class="post">
@@ -25,7 +25,7 @@ layout: default
             {% if page.draft %} <span class="draft">Draft</span> {% endif %}
         </h1>
 
-        <h5>{{ page.date | date: "%b %Y" }} | {% include read_time.html %}</h5>
+        {{ page.date | date: "%b %Y" }} | {% include read_time.html %}
 
     </header>
 
