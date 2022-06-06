@@ -4,9 +4,10 @@ title: More about Myself
 permalink: /about/
 ---
 
-<h1 class="post-title">
+<h1 class="post-title"></h1>
+<h2>
 <span class="bg-clip-text text-transparent bg-gradient-to-r from-my-orange to-my-pink text-5xl font-extrabold">ducunt volentem fata, nolentem trahunt</span>  <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>
-</h1>
+</h2>
 
    <div class="footnotes" role="doc-endnotes">
             <ol>
