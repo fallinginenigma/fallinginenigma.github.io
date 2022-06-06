@@ -11,8 +11,8 @@ For the last few years, I devoted most of my attention and energy towards a goal
 
 I decided to build a site for 2 things:
 
-To show and tell others about the ideas I have about Astronomy, Computer Science, Technology, Quantum Physics, Anime, Pokémon, Manga and anything that strikes my fancy. This is my digital garden. [^1]
-I was trying to solve a problem, my first learning weekend at ISB, I had to tell my peers where I am from and what I do - neither NRTI nor Grasim were popular.
+- To show and tell others about the ideas I have about Astronomy, Computer Science, Technology, Quantum Physics, Anime, Pokémon, Manga and anything that strikes my fancy. This is my digital garden. [^1]
+- I was trying to solve a problem, my first learning weekend at ISB, I had to tell my peers where I am from and what I do - neither NRTI nor Grasim were popular.
 
 Feynman shows us by example that it is acceptable to explore a diversity of fields if that is where your curiosity leads. [^2]
 
