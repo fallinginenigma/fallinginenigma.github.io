@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Notes - Starting the blog development"
+layout: toc-post
+title: "Notes on Move 37 development"
 categories: [meta]
 tags: [meta]
 canonical_url: https://fallinginenigma.github.io/notes-build-blog/

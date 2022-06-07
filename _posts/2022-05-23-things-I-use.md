@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: toc-post
 title: "Things I use"
 categories: [about]
 tags: [about]
