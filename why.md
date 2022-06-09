@@ -9,8 +9,9 @@ permalink: /why/
 
 For the last few years, I devoted most of my attention and energy towards a goal. The goal fell through and lately has become a hindrance. Therefore, I have decided to work redirecting all that energy into something creative.
 
-I decided to build a site for 2 things:
+I decided to build a site for 3 reasons:
 
+- I wanted to set-up a site to have all my notes, I jumped into a rabbit hole after reading [castel.dev](castel.dev)'s article about notes in LaTeX.
 - To show and tell others about the ideas I have about Astronomy, Computer Science, Technology, Quantum Physics, Anime, Pokémon, Manga and anything that strikes my fancy. This is my digital garden. [^1]
 - I was trying to solve a problem, my first learning weekend at ISB, I had to tell my peers where I am from and what I do - neither NRTI nor Grasim were popular.
 
