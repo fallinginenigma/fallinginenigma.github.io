@@ -1,12 +1,6 @@
 <div class="post-meta">
     {% if page.external_url %}<div class="post-permalink"><a href="{{ page.url }}">Permalink</a></div>{% endif %}
 
-    <h4 class="post-author">
-        {% if page.author %} {{page.author}} {% else %}
-        {% if site.author.name %} {{site.author.name}} {% else %} Karthik Perla{% endif %}
-        {% endif %}
-    </h4>
-
     {% comment %} {% show category tags  %} {% endcomment %}
 
     {% unless page.categories == empty %}
