@@ -1,0 +1,18 @@
+---
+layout: post p5js
+title: "Setting up P5.js on the blog"
+categories: [meta]
+tags: [meta]
+canonical_url: https://fallinginenigma.github.io/p5js/
+---
+
+A list of sites I went through before I came:
+- https://happycoding.io/examples/p5js/calling-functions/blue-squares
+- https://toolness.github.io/p5.js-widget/
+- https://benjaminhabert.github.io/jekyll-p5-portfolio/projects/simple_sketch/p5project.html
+    - https://github.com/BenjaminHabert/jekyll-p5-portfolio
+
+Then, I implemented a widget:
+
+<script type="text/p5" src="_projects/build p5js/1_p5js.html"></script>
+

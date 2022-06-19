@@ -5,7 +5,7 @@ tags: [booknote]
 permalink: /cold/
 ---
 
-## [Cold Start Problem by Andrew Chen](https://a16z.com/book/the-cold-start-problem/)
+[Cold Start Problem by Andrew Chen](https://a16z.com/book/the-cold-start-problem/)
 
 - The common wisdom was, “If you have a chicken and egg problem — buy the chicken.”
 - Flintstoning across industries and you’ll see the focus tends to be on replicating the hard side of the network with employees, contractors, and other direct efforts.

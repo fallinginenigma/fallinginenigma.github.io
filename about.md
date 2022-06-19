@@ -29,8 +29,10 @@ What gives me immense pleasure? To crush my enemies, to see them driven before m
 Just kidding. I like to relax while watching anime, sit-coms (i like laughing) and building things. I like solving puzzles and problems, talking about ideas, the stars and art. And I want to write about these on `Move 37`, my Blog. 
 
 I also like reading:
-- wisdom from kind people on the internet (more about tech and science, less about my zodiac sign)
-- weird facts like these: Always peel a Post-It® from the [side](https://tylercipriani.com/blog/2022/05/28/on-the-proper-use-of-post-its/) - They don’t curl up on surfaces.
-- And books 
+- wisdom from kind people on the internet
+- weird facts like these: Peeling a Post-It® from the [side](https://tylercipriani.com/blog/2022/05/28/on-the-proper-use-of-post-its/) - and it won't curl up when stuck on surfaces.
+- And books
+
+What I am doing these days? [click here](https://fallinginenigma.github.io/current/)
 
 [^2]: [Part 2, Chapter XI of "Genghis Khan The Emperor Of All Men" by H. Lamb (1936)](https://archive.org/details/genghiskhantheem035122mbp/page/n115/mode/2up)
