@@ -313,6 +313,8 @@ ul.post-list-content {
     clear: left;
     margin: $spacing-unit;
     line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
 
     font-size: $font-size-regular;
 
