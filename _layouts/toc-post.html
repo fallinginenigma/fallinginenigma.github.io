@@ -22,7 +22,13 @@ layout: default
             {% if page.draft %} <span class="draft">Draft</span> {% endif %}
         </h1>
 
-        <h5>{{ page.date | date: "%b %Y" }} | {% include read_time.html %}</h5>
+        <h5>
+
+            {% if page.author %} {{page.author}} {% else %}
+            {% if site.author.name %} {{site.author.name}} {% else %} Karthik Perla{% endif %}
+            {% endif %}
+            
+            | {{ page.date | date: "%b %Y" }} | {% include read_time.html %}
 
     </header>
 
