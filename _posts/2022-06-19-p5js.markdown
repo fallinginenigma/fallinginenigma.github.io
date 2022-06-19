@@ -14,5 +14,5 @@ A list of sites I went through before I came:
 
 Then, I implemented a widget:
 
-<script type="text/p5" src="_projects/build p5js/1_p5js.html"></script>
+<script type="text/p5" src="/_projects/build p5js/1_p5js.html"></script>
 
