@@ -6,7 +6,7 @@ tags: [meta]
 canonical_url: https://fallinginenigma.github.io/p5js/
 ---
 
-A list of sites I went through before I came:
+Sites that have been used to integrate p5js on the page:
 - https://happycoding.io/examples/p5js/calling-functions/blue-squares
 - https://toolness.github.io/p5.js-widget/
 - https://benjaminhabert.github.io/jekyll-p5-portfolio/projects/simple_sketch/p5project.html
