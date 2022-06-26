@@ -18,9 +18,9 @@ Setting up p5js widgets: [guide](https://toolness.github.io/p5.js-widget/)
 
 <script type="text/p5" src="/assets/posts/p5js/1.html"></script>
 
-<section id="simple-sketch-holder">
-    <script src="/assets/posts/p5js/1.js"></script>
-</section>
+<div id="simple-sketch-holder">
+<script type="text/javascript" src="/assets/posts/p5js/1.js"></script>
+</div>
 
 In order to include a P5.js sketch in the post:
 
