@@ -22,14 +22,10 @@ This page contains a list of the technologies I use, both software and hardware.
 
 ## Software
 
-All software I run on Windows 11:
+All software I run on Windows 11 + WSL2 with Ubuntu:
 
 - VS Code
 - Chrome (speed vs resource utilization - I chose speed)
 - Discord
 - Adobe Photoshop
 - VLC
-
-All software I run on Fedora:
-- VS Code
-- Chrome
