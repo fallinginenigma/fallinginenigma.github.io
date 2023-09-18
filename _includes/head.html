@@ -1,0 +1,62 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--header inserts go here-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inter:wght@400;500;600;700;800;900|Source Code Pro"
+        rel="stylesheet">
+
+    <!-- favicon-->
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- DYNAMIC PAGE ATTRIBUTES -->
+    <!--Look into this Karthik, this is important-->
+    <title>{% if page.title %}{{ page.title | escape }}{% endif %}</title>
+
+    <!--Bootstrap-css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!--TOC-css-->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap-toc.css" media="screen" charset="utf-8" />
+
+    <!--jQuery-->
+    <script src="/assets/js/jquery.min.js"></script>
+
+    <!--For SpyScroll-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <!--JS for TOC-->
+    <script src="{{ site.baseurl }}/assets/js/bootstrap-toc.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    {%- feed_meta -%}
+
+    <script src="/assets/js/sidenotes.js"></script>
+
+    {% include google-analytics.html %}
+    {% seo %}
+
+    <!-- dependencies -->
+    {% include dependency.html name="flexbox" %}
+    <!-- dev-dependencies -->
+    {% if jekyll.environment == 'development' %}
+    {% include dependency.html name="live" %}
+    {% endif %}
+    <!-- custom page dependencies -->
+    {% for dependency in page.dependencies %}
+    {% include dependency.html name=dependency %}
+    {% endfor %}
+
+</head>
