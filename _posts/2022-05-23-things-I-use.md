@@ -10,9 +10,9 @@ This page contains a list of the technologies I use, both software and hardware.
 
 ## Hardware
 - Acer Nitro 5 (i5 8th gen, 2018)
-    - RAM: 12 GB
-    - Storage: 256 GB SSD, 1 TB HDD
-    - OS: Windows 11 and Fedora 36 (dual boot)
+    - RAM: 16 GB
+    - Storage: 512 GB SSD
+    - OS: macOS Ventura
 
 - Gigabyte 34" 2K Monitor
 
@@ -26,7 +26,7 @@ This page contains a list of the technologies I use, both software and hardware.
 
 ## Software
 
-All software I run on Windows 11 + WSL2 with Ubuntu:
+All software I run on my Mac:
 
 - VS Code
 - Chrome (it was speed vs resource utilization - I chose speed)
