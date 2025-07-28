@@ -5,10 +5,6 @@ tags: [meta]
 permalink: /why/
 ---
 
-**This is for Blueberry Muffin. You inspire me to be myself.**
-
-For the last few years, I devoted most of my attention and energy towards a goal. The goal fell through and lately has become a hindrance. Therefore, I have decided to work redirecting all that energy into something creative.
-
 I decided to build a site for 3 reasons:
 
 - I wanted to set-up a site to have all my notes, I jumped into a rabbit hole after reading [castel.dev](castel.dev)'s article about notes in LaTeX.
