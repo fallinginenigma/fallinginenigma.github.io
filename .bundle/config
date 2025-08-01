@@ -1,2 +1,3 @@
 ---
 BUNDLE_PATH: "vendor/bundle"
+BUNDLE_SOURCE: "https://mirrors.aliyun.com/rubygems/"
