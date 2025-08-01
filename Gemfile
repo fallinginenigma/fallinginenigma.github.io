@@ -1,23 +1,15 @@
 source 'https://rubygems.org'
-gemspec
 
-gem "bundler"  
-gem 'bigdecimal' 
-gem 'activesupport' 
-gem "json"
-gem 'airtable'
-gem "webrick" # stopped shipping with Ruby 3.0
-
+gem "jekyll", "~> 3.9.0"
+gem "jekyll-feed", "~> 0.15"
 gem "jekyll-paginate", "~> 1.1"
-
-gem 'bootstrap', '~> 4.3.1'
-
+gem "jekyll-redirect-from", "~> 0.16"
+gem "jekyll-seo-tag", "~> 2.7"
+gem "jekyll-sitemap", "~> 1.4"
 gem "github-pages", group: :jekyll_plugins
-
-group :jekyll_plugins do
-    gem "jekyll-feed","~> 0.15"
-    gem "jekyll-redirect-from","~> 0.16"
-    gem "jekyll-seo-tag","~> 2.7"
-    gem "jekyll-sitemap", "~> 1.4"
-
-end
+gem "webrick", "~> 1.7"
+gem "bigdecimal"
+gem "activesupport"
+gem "json"
+gem "airtable"
+gem "bootstrap", "~> 4.3.1"

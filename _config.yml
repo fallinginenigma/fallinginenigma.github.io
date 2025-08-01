@@ -31,7 +31,6 @@ permalink: /:title/
 external-url-indicator: " »"
 
 # Build settings
-remote_theme: henry-jekyll
 markdown: kramdown
 kramdown:
   toc_levels: 1..4 # only using h1 thru h4 to generate table of contents in posts
@@ -72,8 +71,5 @@ exclude:
  - henry-jekyll.gemspec
  - publishing_firebase_hosting.md
  - publishing_github_pages.md
+ - vendor/
 #   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
