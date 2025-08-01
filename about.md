@@ -23,6 +23,33 @@ I relate to this quote by Seneca more often than others.
 On a regular day: I work in Logistics dealing with Transporters, Senior Management and my Digital Transformation project where I manage fleet tracking for Grasim’s Indian Plants. At home I spend my time learning how to play the guitar, building / writing code / learning code for building ideas I have. 
 
 >An interactive graph of what I do on a regular day: read, sleep, eat, work (deal with transporters, dispatch, GPS), and play games on the PS5.
+<div id="about-piechart" style="width: 400px; height: 400px; margin: 2em auto;"></div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://unpkg.com/rough-viz@2.0.5/dist/roughviz.min.js"></script>
+<script>
+  // Example data for a typical day
+  const aboutPieData = [
+    { label: "Sleep", value: 8 },
+    { label: "Work (Logistics, GPS, Dispatch)", value: 9 },
+    { label: "Eat", value: 2 },
+    { label: "Read", value: 1.5 },
+    { label: "Play Guitar / Code / Build", value: 2 },
+    { label: "Games / Relax", value: 1.5 }
+  ];
+
+  new roughViz.Pie({
+    element: "#about-piechart",
+    data: aboutPieData,
+    labels: "label",
+    values: "value",
+    title: "A Typical Day in My Life",
+    colors: ['#fbbf24', '#f472b6', '#60a5fa', '#34d399', '#f87171', '#a78bfa'],
+    roughness: 2.2,
+    strokeWidth: 2,
+    highlight: "gold",
+    legend: true
+  });
+</script>
 
 What gives me immense pleasure? To crush my enemies, to see them driven before me, and to hear the lamentations of their women. [^2]
 
