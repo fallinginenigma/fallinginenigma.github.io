@@ -40,7 +40,8 @@ pre { background-color: var(--code-background); border: 1px solid var(--border-c
 
 p, span, div, li, td, th { color: var(--text-color) !important; }
 
-.logo__text { color: var(--text-color) !important; }
+.logo__text { color: var(--text-color) !important; text-decoration: none !important; }
+.logo__text:hover { color: var(--text-color) !important; text-decoration: none !important; }
 
 a:not(.theme-toggle *) { color: var(--link-color) !important; }
 a:not(.theme-toggle *):hover { color: var(--link-hover-color) !important; }

@@ -154,6 +154,12 @@ p, span, div, li, td, th {
 // Logo text styling
 .logo__text {
   color: var(--text-color) !important;
+  text-decoration: none !important;
+  
+  &:hover {
+    color: var(--text-color) !important;
+    text-decoration: none !important;
+  }
 }
 
 // Ensure all links use theme colors
