@@ -1,1 +1,292 @@
-// Hook to override predefined variables.
+// Dark mode CSS variables
+:root {
+  // Light theme (default)
+  --background-color: #ffffff;
+  --text-color: #3a343a;
+  --text-color-secondary: #7e7e7e;
+  --link-color: #2BBC8A;
+  --link-hover-color: #1a8f6b;
+  --header-color: #3a343a;
+  --code-color: #3a343a;
+  --code-background: #f5f5f5;
+  --border-color: #e0e0e0;
+  --divider-color: #111111;
+  --footer-background: #f8f9fa;
+  --card-background: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  // Solarized Dark theme
+  --background-color: #002b36;
+  --text-color: #839496;
+  --text-color-secondary: #586e75;
+  --link-color: #268bd2;
+  --link-hover-color: #6c71c4;
+  --header-color: #fdf6e3;
+  --code-color: #93a1a1;
+  --code-background: #073642;
+  --border-color: #073642;
+  --divider-color: #073642;
+  --footer-background: #073642;
+  --card-background: #073642;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+// Theme toggle button styles
+.theme-toggle {
+  position: relative;
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px var(--shadow-color);
+  margin-left: auto;
+  
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px var(--shadow-color);
+  }
+  
+  .theme-icon {
+    font-size: 18px;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+  }
+}
+
+// Update header layout to accommodate toggle button
+.top_bar .top_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+// Apply theme colors to existing elements
+html {
+  background-color: var(--background-color);
+}
+
+body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+// Ensure all sections inherit the background
+.post, .post-content, .top_bar, .site-footer {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+.site-header .site-title {
+  color: var(--text-color);
+  
+  &:hover {
+    color: var(--link-color);
+  }
+}
+
+.post-meta .post-permalink a {
+  color: var(--text-color);
+  
+  &:hover {
+    color: var(--link-color);
+  }
+}
+
+.post-meta .post-date {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--header-color);
+}
+
+code {
+  color: var(--code-color);
+  background-color: var(--code-background);
+}
+
+pre {
+  background-color: var(--code-background);
+  border: 1px solid var(--border-color);
+}
+
+.site-footer {
+  background-color: var(--footer-background);
+  border-top: 1px solid var(--border-color);
+}
+
+.nav-link {
+  color: var(--text-color);
+  
+  &:hover {
+    color: var(--link-color);
+  }
+}
+
+// Additional dark mode styles for specific elements
+.post-link-date {
+  color: var(--text-color-secondary) !important;
+}
+
+// Ensure all text elements use the theme colors
+p, span, div, li, td, th {
+  color: var(--text-color) !important;
+}
+
+// Logo text styling
+.logo__text {
+  color: var(--text-color) !important;
+}
+
+// Ensure all links use theme colors
+a:not(.theme-toggle *) {
+  color: var(--link-color) !important;
+  
+  &:hover {
+    color: var(--link-hover-color) !important;
+  }
+}
+
+.post-link-url {
+  color: var(--text-color) !important;
+  
+  &:hover {
+    color: var(--link-color) !important;
+  }
+}
+
+.post-title {
+  color: var(--text-color) !important;
+}
+
+.article-link {
+  color: var(--text-color) !important;
+  
+  &:hover {
+    color: var(--link-color) !important;
+  }
+}
+
+// Table styles
+table {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  
+  th, td {
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+  }
+  
+  th {
+    background-color: var(--code-background);
+  }
+}
+
+// Blockquote styles
+blockquote {
+  border-left: 4px solid var(--link-color);
+  background-color: var(--code-background);
+  color: var(--text-color);
+}
+
+// Image captions
+figcaption {
+  color: var(--text-color-secondary);
+}
+
+// Selection color
+::selection {
+  background-color: var(--link-color);
+  color: var(--background-color);
+}
+
+::-moz-selection {
+  background-color: var(--link-color);
+  color: var(--background-color);
+}
+
+// Force dark mode on all elements
+[data-theme="dark"] * {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] a {
+  color: var(--link-color) !important;
+}
+
+[data-theme="dark"] a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3, 
+[data-theme="dark"] h4, [data-theme="dark"] h5, [data-theme="dark"] h6 {
+  color: var(--header-color) !important;
+}
+
+// Preserve original TOC styling
+nav[data-toggle="toc"] .nav > li > a {
+  color: #767676 !important;
+  background-color: transparent !important;
+}
+
+// Logo cursor visibility in dark mode
+.logo__cursor {
+  background: var(--link-color) !important;
+}
+
+nav[data-toggle="toc"] .nav > li > a:hover,
+nav[data-toggle="toc"] .nav > li > a:focus {
+  color: #2BBC8A !important;
+  background-color: transparent !important;
+}
+
+nav[data-toggle="toc"] .nav-link.active,
+nav[data-toggle="toc"] .nav-link.active:hover,
+nav[data-toggle="toc"] .nav-link.active:focus {
+  color: #2BBC8A !important;
+  background-color: transparent !important;
+}
+
+nav[data-toggle="toc"] .nav .nav > li > a {
+  color: #767676 !important;
+  background-color: transparent !important;
+}
+
+nav[data-toggle="toc"] .nav .nav > li > a:hover,
+nav[data-toggle="toc"] .nav .nav > li > a:focus {
+  color: #2BBC8A !important;
+  background-color: transparent !important;
+}
+
+nav[data-toggle="toc"] .nav .nav > li > .active,
+nav[data-toggle="toc"] .nav .nav > li > .active:hover,
+nav[data-toggle="toc"] .nav .nav > li > .active:focus {
+  color: #2BBC8A !important;
+  background-color: transparent !important;
+}
+
+
+
+// Smooth transitions for theme switching
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}

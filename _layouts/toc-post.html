@@ -3,46 +3,42 @@ layout: default
 ---
 
 <body data-bs-spy="scroll" data-target="#toc">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-    <div class="col-sm-3">
-        <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:10"></nav>
+            <!-- TOC Column -->
+            <div class="col-md-2">
+                <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:10; top: 300px;"></nav>
+            </div>
+
+            <!-- Content Column -->
+            <div class="col-md-10">
+                <section class="post">
+                    <header class="post-header">
+                        <h1 class="post-title">
+                            {% if page.external_url %}
+                            <a href="{{ page.external_url }}" class='article-link'>{{ page.title }}{{ site.external-url-indicator }}</a>
+                            {% else %}
+                            {{ page.title }}
+                            {% endif %}
+                            {% if page.draft %} <span class="draft">Draft</span> {% endif %}
+                        </h1>
+
+                        <h5>
+                            {% if page.author %} {{page.author}} {% else %}
+                            {% if site.author.name %} {{site.author.name}} {% else %} Karthik Perla{% endif %}
+                            {% endif %}
+                            
+                            | {{ page.date | date: "%b %Y" }} | {% include read_time.html %}
+                        </h5>
+                    </header>
+
+                    <article class="post-content">
+                        {{ content }}
+                    </article>
+
+                    {% include meta.html %}
+                </section>
+            </div>
+        </div>
     </div>
-
-    <div class="col-sm-9">
-<section class="post">
-
-    <header class="post-header">
-        <h1 class="post-title">
-            {% if page.external_url %}
-            <a href="{{ page.external_url }}" class='article-link'>{{ page.title }}{{ site.external-url-indicator }}</a>
-            {% else %}
-            {{ page.title }}
-            {% endif %}
-            {% if page.draft %} <span class="draft">Draft</span> {% endif %}
-        </h1>
-
-        <h5>
-
-            {% if page.author %} {{page.author}} {% else %}
-            {% if site.author.name %} {{site.author.name}} {% else %} Karthik Perla{% endif %}
-            {% endif %}
-            
-            | {{ page.date | date: "%b %Y" }} | {% include read_time.html %}
-
-    </header>
-
-
-    <article class="post-content">
-
-        {{ content }}
-
-    </article>
-
-    {% include meta.html %}
-
-</section>
-</div>
-</div>
-</div>
 </body>

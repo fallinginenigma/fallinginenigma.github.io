@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--header inserts go here-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inter:wght@400;500;600;700;800;900|Source Code Pro"
+        rel="stylesheet">
+
+    <!-- favicon-->
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- DYNAMIC PAGE ATTRIBUTES -->
+    <!--Look into this Karthik, this is important-->
+    <title>Setting up P5.js on the blog</title>
+
+    <!--Bootstrap-css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+    <!--TOC-css-->
+    <link rel="stylesheet" href="/assets/css/bootstrap-toc.css" media="screen" charset="utf-8" />
+
+    <!--jQuery-->
+    <script src="/assets/js/jquery.min.js"></script>
+
+    <!--For SpyScroll-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <!--JS for TOC-->
+    <script src="/assets/js/bootstrap-toc.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Karthik Perla" /><script src="/assets/js/sidenotes.js"></script>
+    <script src="/assets/js/theme-toggle.js"></script>
+
+    
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Setting up P5.js on the blog | Karthik Perla</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Setting up P5.js on the blog" />
+<meta name="author" content="Karthik Perla" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sites that have been used to integrate p5js on the page: Blue Squares - Happy Coding Simple p5 sketch by Benjamin Habert p5 Portfolio" />
+<meta property="og:description" content="Sites that have been used to integrate p5js on the page: Blue Squares - Happy Coding Simple p5 sketch by Benjamin Habert p5 Portfolio" />
+<link rel="canonical" href="https://fallinginenigma.github.io/p5js/" />
+<meta property="og:url" content="https://fallinginenigma.github.io/p5js/" />
+<meta property="og:site_name" content="Karthik Perla" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-06-19T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Setting up P5.js on the blog" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Karthik Perla"},"dateModified":"2022-06-19T00:00:00+05:30","datePublished":"2022-06-19T00:00:00+05:30","description":"Sites that have been used to integrate p5js on the page: Blue Squares - Happy Coding Simple p5 sketch by Benjamin Habert p5 Portfolio","headline":"Setting up P5.js on the blog","mainEntityOfPage":{"@type":"WebPage","@id":"https://fallinginenigma.github.io/p5js/"},"url":"https://fallinginenigma.github.io/p5js/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- dependencies -->
+    
+    
+
+    
+
+    
+
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
+    
+
+    
+
+
+    <!-- dev-dependencies -->
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    
+
+
+    
+    <!-- custom page dependencies -->
+    
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+</head>
+
+
+<body>
+
+<script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+
+<section class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">
+            
+            Setting up P5.js on the blog
+            
+            
+        </h1>
+
+        
+         Karthik Perla 
+        
+        
+        | Jun 2022 | <span class="reading-time" title="Estimated read time">
+  
+  
+    Reading time: 1 min
+  
+</span>
+        
+    </header>
+
+    <article class="post-content">
+
+        <p>Sites that have been used to integrate p5js on the page:</p>
+<ul>
+  <li><a href="https://happycoding.io/examples/p5js/calling-functions/blue-squares">Blue Squares - Happy Coding</a></li>
+  <li><a href="https://benjaminhabert.github.io/jekyll-p5-portfolio/projects/simple_sketch/p5project.html">Simple p5 sketch by Benjamin Habert</a>
+    <ul>
+      <li><a href="https://github.com/BenjaminHabert/jekyll-p5-portfolio">p5 Portfolio</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Then, I implemented a widget.
+Setting up p5js widgets: <a href="https://toolness.github.io/p5.js-widget/">guide to the setup</a></p>
+
+<script type="text/p5" src="/assets/posts/p5js/1.html"></script>
+
+<div id="simple-sketch-holder">
+<script type="text/javascript" src="/assets/posts/p5js/1.js"></script>
+</div>
+
+<p>In order to include a P5.js sketch in the post:</p>
+
+<ul>
+  <li>Import the p5.js library as a dependency. You can complete the front-matter of the post like this:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="na">dependencies</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">p5</span>
+<span class="nn">---</span></code></pre></figure>
+
+<ul>
+  <li>create in <code class="language-plaintext highlighter-rouge">div</code> in the markdown document of your post and include the javascript file
+(relative path from the markdown document). Note that we gave the <code class="language-plaintext highlighter-rouge">div</code> a custom id.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"simple-sketch-holder"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"simple_sketch.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<ul>
+  <li>in your javascript file, make sure to link the canvas to this specific <code class="language-plaintext highlighter-rouge">div</code>. See the
+<a href="https://github.com/processing/p5.js/wiki/Positioning-your-canvas">documentation</a>
+for more information.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">canvas</span> <span class="o">=</span> <span class="nx">createCanvas</span><span class="p">(</span><span class="mi">710</span><span class="p">,</span> <span class="mi">400</span><span class="p">);</span>
+  <span class="nx">canvas</span><span class="p">.</span><span class="nx">parent</span><span class="p">(</span><span class="dl">'</span><span class="s1">simple-sketch-holder</span><span class="dl">'</span><span class="p">);</span> 
+  <span class="c1">// this ensures that the sketch will be positioned properly</span>
+<span class="p">}</span></code></pre></figure>
+
+<p><strong>Note</strong>: using the method, you can only include a single sketch per file. See <a href="https://github.com/processing/p5.js/wiki/Global-and-instance-mode">here</a> if you
+want to have several sketches running simultaneously.</p>
+
+
+    </article>
+
+    <div class="post-meta">
+    
+
+    
+
+    
+    <div class="post-categories">
+        
+        <div class="post-category"><a href="/categories#meta">meta</a></div>
+        
+    </div>
+    
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+            
+
+    
+    
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+    
+    <div class="post-related">
+        <h4> Related: </h4>
+        <ul class="post-related-links">
+            
+            
+
+            
+            <li><a href="/To-Do/">To Do: For the blog</a></li>
+            
+            
+            
+
+            
+
+            
+
+    
+
+    
+    
+    
+
+    
+
+            
+            <li><a href="/Test/">[Always under development] Test File</a></li>
+            
+            
+            
+
+            
+
+            
+
+    
+
+    
+    
+    
+
+            
+
+    
+
+    
+    
+    
+
+    
+
+            
+            <li><a href="/notes-build-blog/">Notes on Move 37 development</a></li>
+            
+            
+            
+
+            
+
+            
+
+    
+
+    
+    
+    
+
+    
+
+            
+            <li><a href="/blog-stack/">Welcome to Move 37</a></li>
+            
+            
+            
+
+            
+
+            
+
+            
+        </ul>
+    </div>
+    
+
+    
+
+    
+</div>
+
+<footer class="post-footer">
+    <p class="post-meta">
+        <span class="pull-left">
+            <h6>
+                View: <a
+                    href="https://github.com/fallinginenigma/fallinginenigma.github.io/commits/main/_posts/2022-06-19-p5js.markdown"
+                    rel="tooltip" title="View History on GitHub">revision history</a> 
+                | <a
+                    href="https://github.com/fallinginenigma/fallinginenigma.github.io/edit/main/_posts/2022-06-19-p5js.markdown"
+                    rel="tooltip" title="edit">edit</a>
+                | <a href="#top" rel="tooltip"> back to top ^ </a> 
+            </h6>
+        </span>
+    </p>
+</footer>
+
+<footer class="site-footer">
+
+    <nav class="site-nav">
+        <ul>
+            <li><a class="nav-link" href="/home">Move 37</a></li>
+            <li><a class="nav-link" href="/about/">About</a></li>
+            <li><a class="nav-link site-title" href="/categories">Categories</a></li>
+            <li><a class="nav-link site-title" href="/why">Why write?</a></li>
+            <!-- <li><a class="nav-link" href="http://0.0.0.0:4000/feed.xml">rss</a></li> -->
+        </ul>
+    </nav>
+    
+    <!--Having year and name at the footer of the website-->
+    
+    <div class='footer'>
+        <span>
+            <small>
+                <center>
+                    2025 Karthik Perla
+                </center>
+            </small>
+        </span>
+    
+    </div>
+
+</footer>
+
+
+
+
+</section>
+
++
+
+</body>
+
+</html>

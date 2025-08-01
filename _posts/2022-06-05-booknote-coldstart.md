@@ -28,7 +28,7 @@ permalink: /cold/
 
 > Consumers will find unexpected use cases for your product/service - sometimes, might pull it into a grey area.
 
--  There are a trio of network effects: 
+-  There are a trio of network effects:
     - Engagement
     - Acquisition
     - Economics.
