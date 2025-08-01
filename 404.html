@@ -1,12 +1,13 @@
 ---
 layout: default copy
-title: Hi!
+title: 404 - Page Not Found
 ---
 
 <header class="top_bar">
     <span class="top_inner">
         <div class="logo">
-            <span class="logo__text">karthik perla</span>
+            <a href="/" class="logo__text">Move 37</a>
+            <span class="logo__cursor" style=" "></span>
         </div>
     </span>
 </header>
@@ -14,31 +15,192 @@ title: Hi!
 <section class="post">
 
     <article class="post-content">
-
+        <div class="error-page">
+            <div class="error-doodles">
+                <!-- Cute doodles reflecting the site's philosophy -->
+                <div class="doodle puzzle-piece">🧩</div>
+                <div class="doodle book">📚</div>
+                <div class="doodle lightbulb">💡</div>
+                <div class="doodle rocket">🚀</div>
+                <div class="doodle brain">🧠</div>
+                <div class="doodle compass">🧭</div>
+            </div>
+            
+            <h1 class="error-title">404</h1>
+            <h2 class="error-subtitle">Oops! This page got lost in the maze</h2>
+            
+            <p class="error-message">
+                Just like solving a challenging puzzle, sometimes we take wrong turns. 
+                But that's part of the journey! The frustration of being stuck and the 
+                satisfaction of finding the solution - that's what makes it worthwhile.
+            </p>
+            
+            <div class="error-actions">
+                <a href="/" class="btn-home">🏠 Go Home</a>
+                <a href="/about/" class="btn-about">👤 About Me</a>
+                <a href="/categories/" class="btn-categories">📂 Browse Posts</a>
+            </div>
+            
+            <div class="error-quote">
+                <blockquote>
+                    "The only way to do great work is to love what you do." 
+                    <cite>- Steve Jobs</cite>
+                </blockquote>
+            </div>
+        </div>
     </article>
 
 </section>
 
-<footer class="site-footer">
+<style>
+.error-page {
+    text-align: center;
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-    <nav class="site-nav">
-        <ul>
-            <li><a class="nav-link" href="/home">Move 37</a></li>
-            <li><a class="nav-link" href="/">Home</a></li>
-        </ul>
-    </nav>
+.error-doodles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    animation: float 3s ease-in-out infinite;
+}
 
-    <!--Having year and name at the footer of the website-->
+.doodle {
+    font-size: 2.5rem;
+    animation: bounce 2s ease-in-out infinite;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
 
-    <div class='footer'>
-        <span>
-            <small>
-                <center>
-                    {{ site.time | date: '%Y' }} Karthik Perla
-                </center>
-            </small>
-        </span>
+.doodle:hover {
+    transform: scale(1.2) rotate(10deg);
+    opacity: 1;
+}
 
-    </div>
+.doodle:nth-child(1) { animation-delay: 0s; }
+.doodle:nth-child(2) { animation-delay: 0.2s; }
+.doodle:nth-child(3) { animation-delay: 0.4s; }
+.doodle:nth-child(4) { animation-delay: 0.6s; }
+.doodle:nth-child(5) { animation-delay: 0.8s; }
+.doodle:nth-child(6) { animation-delay: 1s; }
 
-</footer>
+.error-title {
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--link-color);
+    margin: 1rem 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.error-subtitle {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+.error-message {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-color-secondary);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.btn-home, .btn-about, .btn-categories {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: var(--link-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn-home:hover, .btn-about:hover, .btn-categories:hover {
+    background: var(--link-hover-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    color: white;
+    text-decoration: none;
+}
+
+.error-quote {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: var(--card-background);
+    border-radius: 15px;
+    border-left: 4px solid var(--link-color);
+}
+
+.error-quote blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin: 0;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.error-quote cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color-secondary);
+    font-style: normal;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@media (max-width: 768px) {
+    .error-title {
+        font-size: 4rem;
+    }
+    
+    .error-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .error-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-home, .btn-about, .btn-categories {
+        width: 200px;
+        text-align: center;
+    }
+}
+</style>
