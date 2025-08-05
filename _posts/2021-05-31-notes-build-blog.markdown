@@ -110,6 +110,61 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 I used this [GitHub Repo](https://github.com/andriannp/spotify-embed-on-Jekyll) to embed a Spotify Playlist on the EDEN post, I had to edit scss files, add an includes, and add it to the front matter of the post.
 
+This is everything that I plan on setting up on the site:
+
+## To Do
+
+- [ ] Add posts on Pokemon Emerald
+- [ ] how to build a Lily 58
+- [ ] https://github.com/jwilber/roughViz
+- [ ] Bi-directional links to the blog: https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_plugins
+- [ ] Automatic site map being generated and represented as a tree map - every time a new post is created. - Either on the website or on github: https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_plugins
+- [ ] Crosscheck the readability of the site using this: https://learnui.design/tools/typography-tutorial.html
+- [ ] Can we insert an interactive graph in a markdown webpage?
+
+- D3 is the answer to that.
+
+### Future Plans
+
+- [ ] Add Last Modified functionality (It breaks when you add it to the gemspec or the config.yml) [^1]
+- [ ] Buy a Domain from Google Names (need to buy it again)
+
+### Not required anymore
+
+- [ ] Can we have multiple branches on github? Which will lead to having multiple versions of the website.
+
+### Completed
+
+- [X] Add ps.j5 to the website
+- [X] Need to add bootstrap to the website and import the sass
+- [X] Name the website/ blog
+- [X] Change About Page in _root
+- [X] Fix _includes/_footer
+- [X] Implemented a flashing cursor, inspired by [this example](https://github.com/droctothorpe/droctothorpe.github.io/blob/master/index.html)
+- [X] Reading time (Added on May 15, 2022 - from this post: https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/)
+- [X] Have an automatic Table of Contents and ScrollSpy
+
+- https://www.codeply.com/go/bp/yBqcf4kncL
+- https://idratherbewriting.com/2015/01/20/implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents/
+- https://github.com/ghiculescu/jekyll-table-of-contents
+- Check the https://knanne.github.io/ css too
+- Check the castel.dev css for the table of contents
+
+- [X] Fix the Favicon - not on all pages of the site
+- [X] Fix the Inter Font - Weights added, change in _sass
+- [X] Have a revision pointing out to each revision like this: [^2] At the footnote of each post
+- [X] Try adding a post with pictures
+- [X] Edit multiple settings in _root/_config.yml
+- [X] Update and edit every post - Final push
+- [X] https://vishnubharathi.codes/ Can take the color scheme from here
+- [X] 404 Page in _layouts
+- [X] Theme Switcher: Light vs. Dark mode
+- [X] Justified alignment on all posts
+- [X] A post with [timeline](https://github.com/SimplGy/jekyll-timeline)
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+[^1]: https://github.com/gjtorikian/jekyll-last-modified-at
+    
+[^2]: [How To Create Custom Post Navigation In Jekyll](https://github.com/knanne/knanne.github.io/commits/master/_posts/2017-02-14-how-to-create-custom-post-navigation-in-jekyll.md)
