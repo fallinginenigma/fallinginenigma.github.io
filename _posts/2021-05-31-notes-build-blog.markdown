@@ -1,20 +1,25 @@
 ---
 layout: toc-post
-title: "Notes on Move 37 development"
+title: "How did I build this website?"
 categories: [meta]
 tags: [meta]
 canonical_url: https://fallinginenigma.github.io/notes-build-blog/
 ---
 
-I had a rough idea about the way the website should look (Insert the picture here)
 
-## Adding Table of Contents to the posts
+I had a rough idea on how the site should look like. I wanted it to have a light and minimal theme like [Castel&#39;s Blog](castel.dev), after some searching I found Solarised theme [here](https://gist.github.com/nicolashery/5765395). The site was built using Jekyll and [Henry](https://github.com/kaushikgopal/henry-jekyll). Found this theme on reddit and his ideology and the implementation of features such as side notes and [Tufte CSS](https://edwardtufte.github.io/tufte-css/). I used GitHub Pages to host and Jekyll as the Static Site Generator to build `Move 37`. With little proficiency in CSS, Javascript, Ruby, and HTML, I use the help of some kind friends, reddit, lot of documentation on Github Pages, and Cursor. I started using Cursor in 2025, using AI to build features and correct the layouts.
+
+I want to thank my friends: Satvik Ambati and Vivek Amirisetty for helping me figure many things and being patient when I was learning and fixing things over midnight Discord calls.
+
+I started off in 2021 with:
+
+## Table of Contents (TOC) to the posts
 
 As easy as writing `{:toc}` at the top of the Markdown file. Jekyll and Markdown have an automatic creation for table of contents.
 
 [Kramdown Documentation for Automatic “Table of Contents” Generation](https://kramdown.gettalong.org/converter/html.html#:~:text=of%20the%20document.-,Automatic%20%E2%80%9CTable%20of%20Contents%E2%80%9D%20Generation,-kramdown%20supports%20the)
 
-## Implementing spyscroll
+## Implementing spyscroll for the TOC
 
 Step 1 for implementing the Spyscroll feature, that I really loved from the castel.dev, was to automatically generate a table of contents.
 
@@ -27,17 +32,19 @@ Then, trying to implement spyscroll without bootstrap. Looking for ideas, code, 
 - http://davist11.github.io/jQuery-One-Page-Nav/
 
 So, that didn’t work - so I pivoted to a different idea from the Markdownguide.org:
-### ScrollSpy from Markdown guide and Bootstrap
- - https://jsfiddle.net/gableroux/S2SMK/
- - https://github.com/afeld/bootstrap-toc/blob/gh-pages/_layouts/default.html
- - https://getbootstrap.com/docs/4.0/components/scrollspy/
- - https://afeld.github.io/bootstrap-toc/
 
-Main challenge was getting rid of bootstrap defaults and sticking to my theme. As well as pushing the TOC bar to the right. I figured out the bootstrap override - load your custom stylesheet after loading bootstrap in the header. 
+### ScrollSpy from Markdown guide and Bootstrap
+
+- https://jsfiddle.net/gableroux/S2SMK/
+- https://github.com/afeld/bootstrap-toc/blob/gh-pages/_layouts/default.html
+- https://getbootstrap.com/docs/4.0/components/scrollspy/
+- https://afeld.github.io/bootstrap-toc/
+
+Main challenge was getting rid of bootstrap defaults and sticking to my theme. As well as pushing the TOC bar to the right. I figured out the bootstrap override - load your custom stylesheet after loading bootstrap in the header.
 
 ## Back to top
 
-In the beginning I wanted a Material icon for the Back to Top feature as seen in https://knanne.github.io/ but later found a better option on t
+In the beginning I wanted a Material icon for the Back to Top feature as seen in https://knanne.github.io/
 
 ## Zach Holman Gradient
 
@@ -87,7 +94,7 @@ git push origin main
 
 Adding the html tag **kbd** as:
 
-`<kbd>Alt</kbd>` + <kbd>F2</kbd> 
+`<kbd>Alt</kbd>` + `<kbd>`F2`</kbd>`
 
 ### Post Naming Format
 
@@ -104,5 +111,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 I used this [GitHub Repo](https://github.com/andriannp/spotify-embed-on-Jekyll) to embed a Spotify Playlist on the EDEN post, I had to edit scss files, add an includes, and add it to the front matter of the post.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
