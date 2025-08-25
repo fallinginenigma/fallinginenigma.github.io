@@ -53,8 +53,8 @@
 <meta property="og:title" content="Dotfiles" />
 <meta name="author" content="Karthik Perla" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Commands to set up Dotfiles" />
-<meta property="og:description" content="Commands to set up Dotfiles" />
+<meta name="description" content="In 2021, I was exploring MIT&#39;s Missing Semester: a great series of lectures on different computer tools. I recommend this to anyone who wants to have a basic level of understanding about terminal and the modern tech stack." />
+<meta property="og:description" content="In 2021, I was exploring MIT&#39;s Missing Semester: a great series of lectures on different computer tools. I recommend this to anyone who wants to have a basic level of understanding about terminal and the modern tech stack." />
 <link rel="canonical" href="https://fallinginenigma.github.io/notes-build-blog/" />
 <meta property="og:url" content="https://fallinginenigma.github.io/notes-build-blog/" />
 <meta property="og:site_name" content="Karthik Perla" />
@@ -63,7 +63,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dotfiles" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Karthik Perla"},"dateModified":"2021-08-17T00:00:00+05:30","datePublished":"2021-08-17T00:00:00+05:30","description":"Commands to set up Dotfiles","headline":"Dotfiles","mainEntityOfPage":{"@type":"WebPage","@id":"https://fallinginenigma.github.io/notes-build-blog/"},"url":"https://fallinginenigma.github.io/notes-build-blog/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Karthik Perla"},"dateModified":"2021-08-17T00:00:00+05:30","datePublished":"2021-08-17T00:00:00+05:30","description":"In 2021, I was exploring MIT&#39;s Missing Semester: a great series of lectures on different computer tools. I recommend this to anyone who wants to have a basic level of understanding about terminal and the modern tech stack.","headline":"Dotfiles","mainEntityOfPage":{"@type":"WebPage","@id":"https://fallinginenigma.github.io/notes-build-blog/"},"url":"https://fallinginenigma.github.io/notes-build-blog/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -150,14 +150,18 @@
                     </header>
 
                     <article class="post-content">
-                        <h1 id="commands-to-set-up-dotfiles">Commands to set up Dotfiles</h1>
+                        <p>In 2021, I was exploring <a href="https://missing.csail.mit.edu/">MIT's Missing Semester:</a> a great series of lectures on different computer tools. I recommend this to anyone who wants to have a basic level of understanding about terminal and the modern tech stack.</p>
+
+<p>It has a lecture on setting up your own <a href="https://missing.csail.mit.edu/2019/dotfiles/">Dotfiles</a>. Dotfiles are a way to configure software that you generally use and this personalization would help you be faster and more productive with your workflow. Here are notes on how to set up my dotfiles:</p>
+
+<h2 id="commands-to-set-up-dotfiles">Commands to set up Dotfiles</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/fallinginenigma/dotfiles.git --recursive
 
 cd dotfiles &amp;&amp; ./install
 </code></pre></div></div>
 
-<h1 id="merge-git-to-github">Merge Git to GitHub</h1>
+<h2 id="merge-git-to-github">Merge Git to GitHub</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
 
@@ -166,7 +170,8 @@ git commit -m 'add some message'
 git push origin main 
 </code></pre></div></div>
 
-<h1 id="errors-i-ran-into">Errors I ran into</h1>
+<h2 id="errors-i-ran-into">Errors I ran into:</h2>
+
 <ul>
   <li>Adding submodules in .gitmodules
     <ul>
@@ -186,6 +191,7 @@ git push origin main
 </ul>
 
 <h2 id="sources">Sources</h2>
+
 <ul>
   <li><a href="https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/">Managing Your Dotfiles</a></li>
   <li><a href="https://www.elliotdenolf.com/posts/bootstrap-your-dotfiles-with-dotbot">Bootstrap your Dotfiles with dotbot</a></li>
@@ -214,38 +220,6 @@ git push origin main
 
     
     
-
-    
-
-    
-    
-    
-
-            
-
-    
-
-    
-    
-    
-
-            
-
-    
-
-    
-    
-    
-
-            
-
-    
-
-    
-    
-    
-
-            
 
     
 

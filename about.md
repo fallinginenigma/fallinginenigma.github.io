@@ -20,7 +20,7 @@ permalink: /about/
         </div>
 --->
 
-I like to relax while watching anime, sit-coms (i like laughing), and building things. I like solving puzzles and problems, talking about ideas, the stars, and art. I want to write about these ideas and things I care about on `Move 37`, my Blog. It is sort of my [digital garden](https://x.com/ness_labs/status/1262778800649187330) on the internet. [^1]
+I like to relax while watching anime, sit-coms (I like laughing), and building things. I like solving puzzles and problems, talking about ideas, the stars, and art. I want to write about these ideas and things I care about on `Move 37`, my Blog. It is sort of my [digital garden](https://x.com/ness_labs/status/1262778800649187330) on the internet. [^1]
 
 I also like reading:
 

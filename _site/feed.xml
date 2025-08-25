@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-02T12:50:07+05:30</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Karthik Perla</title><subtitle>ramble</subtitle><author><name>Karthik Perla</name></author><entry><title type="html">Financial Systems</title><link href="http://0.0.0.0:4000/fin/" rel="alternate" type="text/html" title="Financial Systems" /><published>2024-02-05T00:00:00+05:30</published><updated>2024-02-05T00:00:00+05:30</updated><id>http://0.0.0.0:4000/fin</id><content type="html" xml:base="http://0.0.0.0:4000/fin/"><![CDATA[]]></content><author><name>Karthik Perla</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">My lessons from ISB</title><link href="http://0.0.0.0:4000/isb/" rel="alternate" type="text/html" title="My lessons from ISB" /><published>2024-02-05T00:00:00+05:30</published><updated>2024-02-05T00:00:00+05:30</updated><id>http://0.0.0.0:4000/isb</id><content type="html" xml:base="http://0.0.0.0:4000/isb/"><![CDATA[]]></content><author><name>Karthik Perla</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Wasted time</title><link href="http://0.0.0.0:4000/wasted-time/" rel="alternate" type="text/html" title="Wasted time" /><published>2023-02-21T00:00:00+05:30</published><updated>2023-02-21T00:00:00+05:30</updated><id>http://0.0.0.0:4000/wasted%20time</id><content type="html" xml:base="http://0.0.0.0:4000/wasted-time/"><![CDATA[<p>I have spent way too much time working on this website than actually write something. It is time to stop consuming and start creating.</p>
-
-<p>I will be starting my MBA at ISB, Hyderabad, soon. I plan on writing about my experiences during the MBA (it is a personal blog, isn’t it?). 
-Last night, I had an idea on how I can hone my problem solving skills: I would work on approaches and solutions to problems that businesses were facing and try to build picture of how my solutions would affect the problem.</p>
-
-<p>I also had some cool ideas, I was working on, I probably might update all the previous articles and add a few others.</p>
-
-<p>My plan for this year is to take these words from Dagny in Atlas Shrugged seriously: <em>“I’ve hired you to do a job, not to do your best – whatever that is.”</em></p>
-
-<p><strong>Happy 2023!</strong> It might be late but better than never, I guess.</p>]]></content><author><name>Karthik Perla</name></author><summary type="html"><![CDATA[I have spent way too much time working on this website than actually write something. It is time to stop consuming and start creating.]]></summary></entry><entry><title type="html">Setting up P5.js on the blog</title><link href="http://0.0.0.0:4000/p5js/" rel="alternate" type="text/html" title="Setting up P5.js on the blog" /><published>2022-06-19T00:00:00+05:30</published><updated>2022-06-19T00:00:00+05:30</updated><id>http://0.0.0.0:4000/p5js</id><content type="html" xml:base="http://0.0.0.0:4000/p5js/"><![CDATA[<p>Sites that have been used to integrate p5js on the page:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-05T23:05:28+05:30</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Karthik Perla</title><subtitle>ramble</subtitle><author><name>Karthik Perla</name></author><entry><title type="html">Setting up P5.js on the blog</title><link href="http://0.0.0.0:4000/p5js/" rel="alternate" type="text/html" title="Setting up P5.js on the blog" /><published>2022-06-19T00:00:00+05:30</published><updated>2022-06-19T00:00:00+05:30</updated><id>http://0.0.0.0:4000/p5js</id><content type="html" xml:base="http://0.0.0.0:4000/p5js/"><![CDATA[<p>Sites that have been used to integrate p5js on the page:</p>
 <ul>
   <li><a href="https://happycoding.io/examples/p5js/calling-functions/blue-squares">Blue Squares - Happy Coding</a></li>
   <li><a href="https://benjaminhabert.github.io/jekyll-p5-portfolio/projects/simple_sketch/p5project.html">Simple p5 sketch by Benjamin Habert</a>
@@ -136,13 +127,11 @@ want to have several sketches running simultaneously.</p>]]></content><author><n
   <li>Cherry picking is an enormously powerful move because it exposes the fundamental asymmetry between the David and Goliath dynamic of networks.</li>
   <li>Competitive Intelligence: When a networked product takes competition seriously, it has to collect metrics to figure out the comparative position of all the players in the market.</li>
   <li>The distribution advantages don’t win when the product is inferior. (In case of Microsoft Bing and Explorer)</li>
-</ul>]]></content><author><name>Karthik Perla</name></author><category term="booknote" /><summary type="html"><![CDATA[Cold Start Problem by Andrew Chen]]></summary></entry><entry><title type="html">Grasim’s Supply Chain Network</title><link href="http://0.0.0.0:4000/grasim/" rel="alternate" type="text/html" title="Grasim’s Supply Chain Network" /><published>2022-06-01T00:00:00+05:30</published><updated>2022-06-01T00:00:00+05:30</updated><id>http://0.0.0.0:4000/grasim-scn</id><content type="html" xml:base="http://0.0.0.0:4000/grasim/"><![CDATA[<p>I work at Grasim, which is Aditya Birla Group’s (ABG) flagship company. It partly owns UltraTech cement and Aditya Birla Capital. You might not have heard Grasim if you were born after the 2000s. It is a B2B brand called Birla Cellulose that manufactures Viscose Rayon Fibre (VSF), a man-made fibre similar to cotton.</p>
+</ul>]]></content><author><name>Karthik Perla</name></author><category term="booknote" /><summary type="html"><![CDATA[Cold Start Problem by Andrew Chen]]></summary></entry><entry><title type="html">Grasim’s Supply Chain Network</title><link href="http://0.0.0.0:4000/grasim/" rel="alternate" type="text/html" title="Grasim’s Supply Chain Network" /><published>2022-06-01T00:00:00+05:30</published><updated>2022-06-01T00:00:00+05:30</updated><id>http://0.0.0.0:4000/grasim-scn</id><content type="html" xml:base="http://0.0.0.0:4000/grasim/"><![CDATA[<p>I briefly worked at Grasim Industries Limited, an Aditya Birla Group (ABG) flagship company. It partly owns UltraTech cement and Aditya Birla Capital. You might not have heard Grasim if you were born after the 2000s. It is a B2B brand called Birla Cellulose that manufactures Viscose Rayon Fibre (VSF), a man-made fibre similar to cotton.</p>
 
-<p>It is ABG’s oldest company, more than 75 years old and how the Birlas built their empire and fortune from a small town called Nagda in Madhya Pradesh, India. Mostly caters to spinners that weave yarn and other textile companies that are clustered in Rajasthan and Tamil Nadu. I work in Grasim’s and the world’s largest Man-Made Cellulose Fibre (MMCF) Manufacturing Plant at Vilayat, Bharuch, Gujarat.</p>
+<p>It is ABG’s oldest company, more than 75 years old and how the Birlas built their empire and fortune from a small town called Nagda in Madhya Pradesh, India. Mostly caters to spinners that weave yarn and other textile companies that are clustered in Rajasthan and Tamil Nadu. I worked at Grasim’s and the world’s largest Man-Made Cellulose Fibre (MMCF) Manufacturing Plant at Vilayat, Bharuch, Gujarat.</p>
 
-<p>Grasim is the first entity in the Value Chain. It provides Raw Material, manufacturing it directly from the trees. It harvests trees for pulp and uses pulp to manufacture VSF. Grasim also manufactures the chemicals: Caustic Soda, Carbon Disulphide, Sulphuric Acid, it requires from the sister concern: Grasim Chemicals.</p>
-
-<p>It imports coal and pulp, manufactures chemicals and VSF.</p>]]></content><author><name>Karthik Perla</name></author><category term="work" /><summary type="html"><![CDATA[I work at Grasim, which is Aditya Birla Group’s (ABG) flagship company. It partly owns UltraTech cement and Aditya Birla Capital. You might not have heard Grasim if you were born after the 2000s. It is a B2B brand called Birla Cellulose that manufactures Viscose Rayon Fibre (VSF), a man-made fibre similar to cotton.]]></summary></entry><entry><title type="html">EDEN | futurebound</title><link href="http://0.0.0.0:4000/eden/" rel="alternate" type="text/html" title="EDEN | futurebound" /><published>2022-05-23T00:00:00+05:30</published><updated>2022-05-23T00:00:00+05:30</updated><id>http://0.0.0.0:4000/eden</id><content type="html" xml:base="http://0.0.0.0:4000/eden/"><![CDATA[<p>I admire this Indie artist from Ireland, a lot.</p>
+<p>Grasim is the first entity in the Value Chain. It provides Raw Material, manufacturing it directly from the trees. It harvests trees for pulp and uses pulp to manufacture VSF. Grasim also manufactures the chemicals: Caustic Soda, Carbon Disulphide, Sulphuric Acid, it requires from the sister concern: Grasim Chemicals. It imports coal and pulp, manufactures chemicals and VSF.</p>]]></content><author><name>Karthik Perla</name></author><category term="work" /><summary type="html"><![CDATA[I briefly worked at Grasim Industries Limited, an Aditya Birla Group (ABG) flagship company. It partly owns UltraTech cement and Aditya Birla Capital. You might not have heard Grasim if you were born after the 2000s. It is a B2B brand called Birla Cellulose that manufactures Viscose Rayon Fibre (VSF), a man-made fibre similar to cotton.]]></summary></entry><entry><title type="html">EDEN | futurebound</title><link href="http://0.0.0.0:4000/eden/" rel="alternate" type="text/html" title="EDEN | futurebound" /><published>2022-05-23T00:00:00+05:30</published><updated>2022-05-23T00:00:00+05:30</updated><id>http://0.0.0.0:4000/eden</id><content type="html" xml:base="http://0.0.0.0:4000/eden/"><![CDATA[<p>I admire this Indie artist from Ireland, a lot.</p>
 
 <p>My first song by EDEN (Jonathan Ng / Jon) was <a href="https://open.spotify.com/track/6K6OCvFQ4i7KKfGJsOAqY1?si=728e5803cd4445a9">Wake Up</a> posted by Suicide Sheep on YouTube. As a teen I was very excited about studying in America and the lyrics deeply resonated with me. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
@@ -150,9 +139,7 @@ want to have several sketches running simultaneously.</p>]]></content><author><n
 
 <p>Things really changed after the Vertigo album was released, and it changed my life. I noticed how the artist is keen on details such as the audience voices in love; not brave from vertigo, the female voice in crash - is actually him. I am obsessed with the idea of falling, <em>falling in reverse</em> really hit me. I enjoy glass smashing samples in music and I love the way he incorporates it into his music and storytelling. The song also inspired me to make this piece of digital art.</p>
 
-<blockquote>
-  <p>insert falling in reverse artwork</p>
-</blockquote>
+<p><img src="image/2022-05-23-eden/1754404591363.png" alt="1754404591363" /></p>
 
 <p>Most of my art is inspired from the ideas I have had while jamming to his music.</p>
 
@@ -162,11 +149,7 @@ want to have several sketches running simultaneously.</p>]]></content><author><n
 
 <p>The album art for End Credits: <a href="http://www.jamessaulsky.com/the-viewfinder-project">Project Viewfinder</a>. Then, the entire no future project with blocks of squares across the project.</p>
 
-<p>I am thankful that the <a href="https://www.reddit.com/r/eden/">r/eden</a> subreddit exists and I get to catch the glimpses of the tours around the world. The community is also very lovely and wonderful - they know what brings all of us together. It is unfortunate that EDEN doesn’t tour in Asia (I don’t blame him) and I absolutely love this image from his London vertigo tour.</p>
-
-<blockquote>
-  <p>insert vertigo tour, give credits to the user on reddit</p>
-</blockquote>
+<p>I am thankful that the <a href="https://www.reddit.com/r/eden/">r/eden</a> subreddit exists and I get to catch the glimpses of the tours around the world. The community is also very lovely and wonderful - they know what brings all of us together.</p>
 
 <p>His music taste and inspirations from Frank Ocean  and Yung Lean are evident in his music as well as his Spotify playlists. In a way, it is EDEN that got me into Frank Ocean and Yung Lean - as well as started appreciating other Indie artists such as Jeremy Zucker and Chelsea Cutler. I have made this shift from bass-heavy EDM to an Indie Pop genre - something very similar to the shift in genre by Jon in his music production.</p>
 
@@ -185,7 +168,161 @@ want to have several sketches running simultaneously.</p>]]></content><author><n
       <p>“Things are better in America, Heard the streets are gold there” <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Karthik Perla</name></author><category term="music" /><category term="music" /><summary type="html"><![CDATA[I admire this Indie artist from Ireland, a lot.]]></summary></entry><entry><title type="html">To Do: For the blog</title><link href="http://0.0.0.0:4000/To-Do/" rel="alternate" type="text/html" title="To Do: For the blog" /><published>2022-04-23T00:00:00+05:30</published><updated>2022-04-23T00:00:00+05:30</updated><id>http://0.0.0.0:4000/To-Do</id><content type="html" xml:base="http://0.0.0.0:4000/To-Do/"><![CDATA[<h2 id="to-do">To Do</h2>
+</div>]]></content><author><name>Karthik Perla</name></author><category term="music" /><category term="music" /><summary type="html"><![CDATA[I admire this Indie artist from Ireland, a lot.]]></summary></entry><entry><title type="html">Dotfiles</title><link href="http://0.0.0.0:4000/dotfiles/" rel="alternate" type="text/html" title="Dotfiles" /><published>2021-08-17T00:00:00+05:30</published><updated>2021-08-17T00:00:00+05:30</updated><id>http://0.0.0.0:4000/dotfiles</id><content type="html" xml:base="http://0.0.0.0:4000/dotfiles/"><![CDATA[<p>In 2021, I was exploring <a href="https://missing.csail.mit.edu/">MIT's Missing Semester:</a> a great series of lectures on different computer tools. I recommend this to anyone who wants to have a basic level of understanding about terminal and the modern tech stack.</p>
+
+<p>It has a lecture on setting up your own <a href="https://missing.csail.mit.edu/2019/dotfiles/">Dotfiles</a>. Dotfiles are a way to configure software that you generally use and this personalization would help you be faster and more productive with your workflow. Here are notes on how to set up my dotfiles:</p>
+
+<h2 id="commands-to-set-up-dotfiles">Commands to set up Dotfiles</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/fallinginenigma/dotfiles.git --recursive
+
+cd dotfiles &amp;&amp; ./install
+</code></pre></div></div>
+
+<h2 id="merge-git-to-github">Merge Git to GitHub</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+
+git commit -m 'add some message'
+
+git push origin main 
+</code></pre></div></div>
+
+<h2 id="errors-i-ran-into">Errors I ran into:</h2>
+
+<ul>
+  <li>Adding submodules in .gitmodules
+    <ul>
+      <li>Adding Vim plugins</li>
+      <li>Adding zsh plugins</li>
+    </ul>
+  </li>
+  <li>Mis-spelling Solarized as Solarised with an ‘s’ instead of a ‘z’</li>
+  <li>Configuring the YAML file
+    <ul>
+      <li>Adding appropriate whitespace characters</li>
+      <li>Adding force: true to force symbolic link</li>
+      <li>Adding the command <code class="language-plaintext highlighter-rouge">[git submodule update --init --recursive, Installing/updating submodules]</code></li>
+      <li>Running the same command in ‘~/dotfiles’ to see if there is something wrong</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+  <li><a href="https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/">Managing Your Dotfiles</a></li>
+  <li><a href="https://www.elliotdenolf.com/posts/bootstrap-your-dotfiles-with-dotbot">Bootstrap your Dotfiles with dotbot</a></li>
+</ul>]]></content><author><name>Karthik Perla</name></author><category term="code" /><category term="linux" /><summary type="html"><![CDATA[In 2021, I was exploring MIT's Missing Semester: a great series of lectures on different computer tools. I recommend this to anyone who wants to have a basic level of understanding about terminal and the modern tech stack.]]></summary></entry><entry><title type="html">How did I build this website?</title><link href="http://0.0.0.0:4000/notes-build-blog/" rel="alternate" type="text/html" title="How did I build this website?" /><published>2021-05-31T00:00:00+05:30</published><updated>2021-05-31T00:00:00+05:30</updated><id>http://0.0.0.0:4000/notes-build-blog</id><content type="html" xml:base="http://0.0.0.0:4000/notes-build-blog/"><![CDATA[<p>I had a rough idea on how the site should look like. I wanted it to have a light and minimal theme like <a href="castel.dev">Castel's Blog</a>, after some searching I found Solarised theme <a href="https://gist.github.com/nicolashery/5765395">here</a>. The site was built using Jekyll and <a href="https://github.com/kaushikgopal/henry-jekyll">Henry</a>. Found this theme on reddit and his ideology and the implementation of features such as side notes and <a href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a>. I used GitHub Pages to host and Jekyll as the Static Site Generator to build <code class="language-plaintext highlighter-rouge">Move 37</code>. With little proficiency in CSS, Javascript, Ruby, and HTML, I use the help of some kind friends, reddit, lot of documentation on Github Pages, and Cursor. I started using Cursor in 2025, using AI to build features and correct the layouts.</p>
+
+<p>I want to thank my friends: Satvik Ambati and Vivek Amirisetty for helping me figure many things and being patient when I was learning and fixing things over midnight Discord calls.</p>
+
+<p>I started off in 2021 with:</p>
+
+<h2 id="table-of-contents-toc-to-the-posts">Table of Contents (TOC) to the posts</h2>
+
+<p>As easy as writing <code class="language-plaintext highlighter-rouge">{:toc}</code> at the top of the Markdown file. Jekyll and Markdown have an automatic creation for table of contents.</p>
+
+<p><a href="https://kramdown.gettalong.org/converter/html.html#:~:text=of%20the%20document.-,Automatic%20%E2%80%9CTable%20of%20Contents%E2%80%9D%20Generation,-kramdown%20supports%20the">Kramdown Documentation for Automatic “Table of Contents” Generation</a></p>
+
+<h2 id="implementing-spyscroll-for-the-toc">Implementing spyscroll for the TOC</h2>
+
+<p>Step 1 for implementing the Spyscroll feature, that I really loved from the castel.dev, was to automatically generate a table of contents.</p>
+
+<p>Then, trying to implement spyscroll without bootstrap. Looking for ideas, code, plugins from multiple blogs and articles. :</p>
+
+<ul>
+  <li>https://codepen.io/jimmynotjim/pen/OZKeyd</li>
+  <li>https://lei1025.github.io/</li>
+  <li>https://lei1025.github.io/Implement-Scroll-Spy-in-Jekyll-without-Bootstrap/</li>
+  <li>https://scrollnav.com/guide/index.html</li>
+  <li>http://davist11.github.io/jQuery-One-Page-Nav/</li>
+</ul>
+
+<p>So, that didn’t work - so I pivoted to a different idea from the Markdownguide.org:</p>
+
+<h3 id="scrollspy-from-markdown-guide-and-bootstrap">ScrollSpy from Markdown guide and Bootstrap</h3>
+
+<ul>
+  <li>https://jsfiddle.net/gableroux/S2SMK/</li>
+  <li>https://github.com/afeld/bootstrap-toc/blob/gh-pages/_layouts/default.html</li>
+  <li>https://getbootstrap.com/docs/4.0/components/scrollspy/</li>
+  <li>https://afeld.github.io/bootstrap-toc/</li>
+</ul>
+
+<p>Main challenge was getting rid of bootstrap defaults and sticking to my theme. As well as pushing the TOC bar to the right. I figured out the bootstrap override - load your custom stylesheet after loading bootstrap in the header.</p>
+
+<h2 id="back-to-top">Back to top</h2>
+
+<p>In the beginning I wanted a Material icon for the Back to Top feature as seen in https://knanne.github.io/</p>
+
+<h2 id="zach-holman-gradient">Zach Holman Gradient</h2>
+
+<p>Really loved the zach holman gradient on his site. I spent a Sunday evening - trying to figure out how the CSS worked and implemented the same on my About Page.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h1 class="post-title"&gt;
+
+Hi! I'm
+&lt;span class="bg-clip-text text-transparent bg-gradient-to-r from-my-orange to-my-pink text-5xl font-extrabold"&gt;
+Karthik Perla
+&lt;/span&gt;
+
+&lt;/h1&gt;
+</code></pre></div></div>
+
+<p><a href="https://coolors.co/006d77-83c5be-ffffff-ffddd2-e29578">Color Template for the site</a> - Used this to work with my white background aesthetics -  changes URL colours and the way the TOC looks.</p>
+
+<h2 id="content-on-the-site">Content on the site</h2>
+
+<p><a href="https://docs.google.com/document/d/1CFwGd1wrzJ5DiJ8cmX7InaVdGjNicu49q4xCFhHxk1o/edit#heading=h.cbbnqb88c30n">Google Document</a> to edit or write posts. I have tried <a href="https://dillinger.io/">Dillinger</a> and the commits from Dillinger messed up my repository. I went back to Google Docs.</p>
+
+<h2 id="blinking-cursor">Blinking Cursor</h2>
+
+<p>Some additions to the blog are subtle - like the blinking cursor beside Move 37 in the Header. I first noticed it on Gatsby pages and really liked the idea. I could figure out how it was done. I had the CSS for it.</p>
+
+<h2 id="notes-for-me-to-set-up-the-environment">Notes for me to set-up the environment</h2>
+
+<h3 id="commands-to-set-up-jekyll">Commands to set up Jekyll</h3>
+
+<p>Start Docker on Fedora 35 using this command:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">sudo systemctl start docker</code></li>
+  <li><code class="language-plaintext highlighter-rouge">docker start fallinginenigmagithubio-jekyll-1</code></li>
+</ul>
+
+<h3 id="merge-git-to-github">Merge Git to GitHub</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+
+git commit -m 'add some message'
+
+git push origin main
+</code></pre></div></div>
+
+<h3 id="how-to-add-keyboard-icons">How to add keyboard icons:</h3>
+
+<p>Adding the html tag <strong>kbd</strong> as:</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;kbd&gt;Alt&lt;/kbd&gt;</code> + <code class="language-plaintext highlighter-rouge">&lt;kbd&gt;</code>F2<code class="language-plaintext highlighter-rouge">&lt;/kbd&gt;</code></p>
+
+<h3 id="post-naming-format">Post Naming Format</h3>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+<h3 id="embedding-spotify-playlist">Embedding Spotify Playlist</h3>
+
+<p>I used this <a href="https://github.com/andriannp/spotify-embed-on-Jekyll">GitHub Repo</a> to embed a Spotify Playlist on the EDEN post, I had to edit scss files, add an includes, and add it to the front matter of the post.</p>
+
+<p>This is everything that I plan on setting up on the site:</p>
+
+<h2 id="to-do">To Do</h2>
 
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add posts on Pokemon Emerald</li>
@@ -194,25 +331,26 @@ want to have several sketches running simultaneously.</p>]]></content><author><n
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Bi-directional links to the blog: https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_plugins</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Automatic site map being generated and represented as a tree map - every time a new post is created. - Either on the website or on github: https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_plugins</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Crosscheck the readability of the site using this: https://learnui.design/tools/typography-tutorial.html</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Can we insert an interactive graph in a markdown webpage?
-    <ul>
-      <li>D3 is the answer to that.</li>
-    </ul>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Can we insert an interactive graph in a markdown webpage?</p>
   </li>
+  <li class="task-list-item">D3 is the answer to that.</li>
 </ul>
 
-<h2 id="future-plans">Future Plans</h2>
+<h3 id="future-plans">Future Plans</h3>
+
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add Last Modified functionality (It breaks when you add it to the gemspec or the config.yml) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Buy a Domain from Google Names (need to buy it again)</li>
 </ul>
 
-<h2 id="not-required-anymore">Not required anymore</h2>
+<h3 id="not-required-anymore">Not required anymore</h3>
+
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Can we have multiple branches on github? Which will lead to having multiple versions of the website.</li>
 </ul>
 
-<h2 id="completed">Completed</h2>
+<h3 id="completed">Completed</h3>
 
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add ps.j5 to the website</li>
@@ -222,14 +360,15 @@ want to have several sketches running simultaneously.</p>]]></content><author><n
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Fix _includes/_footer</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Implemented a flashing cursor, inspired by <a href="https://github.com/droctothorpe/droctothorpe.github.io/blob/master/index.html">this example</a></li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Reading time (Added on May 15, 2022 - from this post: https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/)</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Have an automatic Table of Contents and ScrollSpy
-    <ul>
-      <li>https://www.codeply.com/go/bp/yBqcf4kncL</li>
-      <li>https://idratherbewriting.com/2015/01/20/implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents/</li>
-      <li>https://github.com/ghiculescu/jekyll-table-of-contents</li>
-      <li>Check the https://knanne.github.io/ css too</li>
-      <li>Check the castel.dev css for the table of contents</li>
-    </ul>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Have an automatic Table of Contents and ScrollSpy</p>
+  </li>
+  <li class="task-list-item">https://www.codeply.com/go/bp/yBqcf4kncL</li>
+  <li class="task-list-item">https://idratherbewriting.com/2015/01/20/implementing-scrollspy-with-jekyll-to-auto-build-a-table-of-contents/</li>
+  <li class="task-list-item">https://github.com/ghiculescu/jekyll-table-of-contents</li>
+  <li class="task-list-item">Check the https://knanne.github.io/ css too</li>
+  <li class="task-list-item">
+    <p>Check the castel.dev css for the table of contents</p>
   </li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Fix the Favicon - not on all pages of the site</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Fix the Inter Font - Weights added, change in _sass</li>
@@ -253,43 +392,24 @@ want to have several sketches running simultaneously.</p>]]></content><author><n
       <p><a href="https://github.com/knanne/knanne.github.io/commits/master/_posts/2017-02-14-how-to-create-custom-post-navigation-in-jekyll.md">How To Create Custom Post Navigation In Jekyll</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>Karthik Perla</name></author><category term="web development" /><category term="meta" /><summary type="html"><![CDATA[To Do]]></summary></entry><entry><title type="html">Dotfiles</title><link href="http://0.0.0.0:4000/dotfiles/" rel="alternate" type="text/html" title="Dotfiles" /><published>2021-08-17T00:00:00+05:30</published><updated>2021-08-17T00:00:00+05:30</updated><id>http://0.0.0.0:4000/dotfiles</id><content type="html" xml:base="http://0.0.0.0:4000/dotfiles/"><![CDATA[<h1 id="commands-to-set-up-dotfiles">Commands to set up Dotfiles</h1>
+</div>]]></content><author><name>Karthik Perla</name></author><category term="meta" /><category term="meta" /><summary type="html"><![CDATA[I had a rough idea on how the site should look like. I wanted it to have a light and minimal theme like Castel's Blog, after some searching I found Solarised theme here. The site was built using Jekyll and Henry. Found this theme on reddit and his ideology and the implementation of features such as side notes and Tufte CSS. I used GitHub Pages to host and Jekyll as the Static Site Generator to build Move 37. With little proficiency in CSS, Javascript, Ruby, and HTML, I use the help of some kind friends, reddit, lot of documentation on Github Pages, and Cursor. I started using Cursor in 2025, using AI to build features and correct the layouts.]]></summary></entry><entry><title type="html">Welcome to Move 37</title><link href="http://0.0.0.0:4000/blog-stack/" rel="alternate" type="text/html" title="Welcome to Move 37" /><published>2021-05-20T00:00:00+05:30</published><updated>2021-05-20T00:00:00+05:30</updated><id>http://0.0.0.0:4000/blog-stack</id><content type="html" xml:base="http://0.0.0.0:4000/blog-stack/"><![CDATA[<p>Hi Everyone!</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/fallinginenigma/dotfiles.git --recursive
+<p>The blog is called <a href="https://www.wired.com/2016/03/sadness-beauty-watching-googles-ai-play-go/">Move37</a>,  named after the move that Lee Sodol, a Go Champion didn’t anticipate in the series of Go matches he played against AlphaGo, an AI that defeated him winning 3 out of 5 matches. The name is an ode to the beauty of mathematics, computer science, and algorithms. Here is a wonderful documentary about the entire tournament: <a href="https://www.youtube.com/watch?v=WXuK6gekU1Y">AlphaGo</a></p>
 
-cd dotfiles &amp;&amp; ./install
-</code></pre></div></div>
+<p>I decided to build a site for 3 reasons in 2021:</p>
 
-<h1 id="merge-git-to-github">Merge Git to GitHub</h1>
+<ol>
+  <li>I wanted to set-up a site to have all my notes, I jumped into a rabbit hole after reading <a href="castel.dev">castel.dev</a>’s article about notes in LaTeX.</li>
+  <li>To show and tell others about the ideas I have about anything that strikes my fancy. This is my digital garden. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
+  <li>I was trying to solve a problem: During my first learning weekend at ISB, I had to tell my peers where I am from and what I do - neither NRTI nor Grasim were popular.</li>
+</ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+<p>As of July 2025, both reasons 1 and 3 are now redundant and now I have a small space of the internet to myself!</p>
 
-git commit -m 'add some message'
-
-git push origin main 
-</code></pre></div></div>
-
-<h1 id="errors-i-ran-into">Errors I ran into</h1>
-<ul>
-  <li>Adding submodules in .gitmodules
-    <ul>
-      <li>Adding Vim plugins</li>
-      <li>Adding zsh plugins</li>
-    </ul>
-  </li>
-  <li>Mis-spelling Solarized as Solarised with an ‘s’ instead of a ‘z’</li>
-  <li>Configuring the YAML file
-    <ul>
-      <li>Adding appropriate whitespace characters</li>
-      <li>Adding force: true to force symbolic link</li>
-      <li>Adding the command <code class="language-plaintext highlighter-rouge">[git submodule update --init --recursive, Installing/updating submodules]</code></li>
-      <li>Running the same command in ‘~/dotfiles’ to see if there is something wrong</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="sources">Sources</h2>
-<ul>
-  <li><a href="https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/">Managing Your Dotfiles</a></li>
-  <li><a href="https://www.elliotdenolf.com/posts/bootstrap-your-dotfiles-with-dotbot">Bootstrap your Dotfiles with dotbot</a></li>
-</ul>]]></content><author><name>Karthik Perla</name></author><category term="code" /><category term="linux" /><summary type="html"><![CDATA[Commands to set up Dotfiles]]></summary></entry></feed>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://nesslabs.com/digital-garden-set-up">How to set up your own digital garden</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Karthik Perla</name></author><category term="meta" /><summary type="html"><![CDATA[Hi Everyone!]]></summary></entry></feed>
